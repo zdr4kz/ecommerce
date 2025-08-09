@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Outros</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros1-p').submit(); return false;"><img src="../produtos/outros/outros1.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros1').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">JBL PartyBox Stage 320</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.200,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="outros1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="JBL PartyBox Stage 320">
+                    <input type="hidden" name="preco" value=" R$3200,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros1.png">
+               </form>
+                <form id="outros1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="JBL PartyBox Stage 320">
+                    <input type="hidden" name="preco" value=" R$3200,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros1.png">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Com 240 W RMS de potência, dois woofers de 6,5'' e tweeters de 25 mm,
+                     entrega som JBL Pro de alta pressão sonora e graves eficientes em ambientes amplosPossui Bluetooth 5.4, conexões para microfone e guitarra, efeitos de iluminação RGB sync com música, gabinete IPX4 e 18 h de bateria com bateria removível; permite recarga rápida de 10 min para +2 h de uso">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros2-p').submit(); return false;"><img src="../produtos/outros/outros2.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros2').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Impressora Multifuncional HP Deskjet Ink Advantage 2874 Colorida</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$349,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Impressora Multifuncional HP Deskjet Ink Advantage 2874 Colorida">
+                    <input type="hidden" name="preco" value=" R$349,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros2.png">
+                </form>
+                <form id="outros2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Impressora Multifuncional HP Deskjet Ink Advantage 2874 Colorida">
+                    <input type="hidden" name="preco" value=" R$349,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros2.png">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="All‑in‑one com funções de impressão, cópia e digitalização, com resolução de até 1 200 × 1 200 dpi (preto) e 4 800 × 1 200 dpi otimizada (colorida) . Velocidade de até 7,5 ppm (preto) e 5,5 ppm (colorida), suporta até 1000 páginas/mês, possui conectividade USB 2.0 e Wi‑Fi b/g/n, e é compatível com HP App, AirPrint e Chrome OS. Mede 425 × 304 × 154 mm, pesa 3,42 kg, aceita papéis de até 300 g/m² e cartuchos HP 667">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros3-p').submit(); return false;"><img src="../produtos/outros/outros3.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros3').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Echo Dot 5ª Geração</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$425,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Echo Dot 5ª Geração">
+                    <input type="hidden" name="preco" value=" R$425,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros3.png">
+                </form>
+                <form id="outros3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Echo Dot 5ª Geração">
+                    <input type="hidden" name="preco" value=" R$425,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros3.png">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Smart speaker compacto com Alexa, novo processador de som e alto‑falante aprimorado (3,5 cm). Adiciona Bluetooth 5.3, compatibilidade Zigbee para dispositivos smart home e rádio FM virtual. Silencioso e discreto, com entrada de 3,5 mm, suporte a multi‑room e modo de hibernação com sensor de presença.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros4-p').submit(); return false;"><img src="../produtos/outros/outros4.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros4').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Fire Stick 4K Max Wi-Fi</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$290,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="outros4" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Fire Stick 4K Max Wi-Fi">
+                <input type="hidden" name="preco" value=" R$290,90 ">
+                <input type="hidden" name="img" value="produtos/outros/outros4.png">
+            </form>
+            <form id="outros4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Fire Stick 4K Max Wi-Fi">
+                <input type="hidden" name="preco" value=" R$290,90 ">
+                <input type="hidden" name="img" value="produtos/outros/outros4.png">
+                <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Streaming stick com processador Quad‑core de 1,8 GHz, Wi‑Fi 6E, HDMI 2.1 com HDR10+, Dolby Vision e suporte a Dolby Atmos. Executa Fire OS fluido com controle por voz Alexa e inclui controle remoto com app-ready. Suporta até 4K a 60 fps e navegação rápida em apps e jogos.">
+                </form>
+
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros5-p').submit(); return false;"><img src="../produtos/outros/outros5.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros5').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Câmera Inteligente iM5 SC</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$350,09</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4,7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Câmera Inteligente iM5 SC">
+                    <input type="hidden" name="preco" value=" R$350,09 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros5.png">
+                </form>
+                <form id="outros5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Câmera Inteligente iM5 SC">
+                    <input type="hidden" name="preco" value=" R$350,09 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros5.png">
+                    <input type="hidden" name="ava" value="4,7">
+                    <input type="hidden" name="desc" value="Câmera de segurança Wi‑Fi 2,4 GHz, resolução Full HD 1080p, lente de 113°, visão noturna IR e detecção de movimento com alerts via app. Alimentada por USB, com suporte a micro‑SD até 128 GB ou armazenamento em nuvem, áudio bidirecional com microfone e alto‑falante para comunicação remota.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros6-p').submit(); return false;"><img src="../produtos/outros/outros6.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros6').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Projetor Portátil 4K 1080p com Wi-Fi</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$299,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Projetor Portátil 4K 1080p com Wi-Fi">
+                    <input type="hidden" name="preco" value=" R$299,90">
+                    <input type="hidden" name="img" value="produtos/outros/outros6.png">
+                </form>
+                <form id="outros6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Projetor Portátil 4K 1080p com Wi-Fi">
+                    <input type="hidden" name="preco" value=" R$299,90">
+                    <input type="hidden" name="img" value="produtos/outros/outros6.png">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Projetor de 1080p nativo que aceita até 4K via entrada, com brilho de ~400 ANSI Lumens, contraste de 2000:1 e correção trapezoidal automática. Inclui Wi‑Fi 5, Bluetooth 4.2, sistema Android integrado, alto‑falante de 5 W, duas portas HDMI e autonomia de até 2,5 h com bateria interna.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros7-p').submit(); return false;"><img src="../produtos/outros/outros7.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros7').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Carregador Turbo 50W Tipo C</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$35,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Carregador Turbo 50W Tipo C">
+                    <input type="hidden" name="preco" value=" R$35,90">
+                    <input type="hidden" name="img" value="produtos/outros/outros7.png">
+                </form>
+                <form id="outros7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Carregador Turbo 50W Tipo C">
+                    <input type="hidden" name="preco" value=" R$35,90">
+                    <input type="hidden" name="img" value="produtos/outros/outros7.png">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Carregador USB‑C GaN, entrega até 50 W (20 V/2,5 A) via PD3.0 e PPS 3,6–11 V/4,4 A. Compacto (≈60 g), com certificações GaN segura (OVP, OCP, OTP, OPP, SCP), recarga laptops, celulares e tablets compatíveis, com alta eficiência (>90 %) e proteção de circuitos.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros8-p').submit(); return false;"><img src="../produtos/outros/outros8.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros8').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">JBL Caixa de Som Bluetooth Go Essential</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$169,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+           <form id="outros8" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="JBL Caixa de Som Bluetooth Go Essential">
+                <input type="hidden" name="preco" value=" R$169,00">
+                <input type="hidden" name="img" value="produtos/outros/outros8.png">
+           </form>
+            <form id="outros8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="JBL Caixa de Som Bluetooth Go Essential">
+                <input type="hidden" name="preco" value=" R$169,00">
+                <input type="hidden" name="img" value="produtos/outros/outros8.png">
+                <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Pequena (209 × 68 × 56 mm, 254 g) com alto‑falante de 5 W, Bass Radiator passivo e frequência 200 Hz–20 kHz. Bluetooth 5.3 com multipoint, autonomia de até 10 h, IP67 à prova d’água e som estéreo potente para o tamanho compacto.">
+                </form>
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros9-p').submit(); return false;"><img src="../produtos/outros/outros9.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros9').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Console Xbox Series S</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.599,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Console Xbox Series S">
+                    <input type="hidden" name="preco" value=" R$2599,99 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros9.png">
+                </form>
+                <form id="outros9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Console Xbox Series S">
+                    <input type="hidden" name="preco" value=" R$2599,99 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros9.png">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Console digital com CPU AMD Zen 2 de 8 núcleos a 3,6 GHz, GPU RDNA 2 com 4 TFLOPS, 10 GB GDDR6, SSD NVMe customizado de 512 GB e rápido carregamento (Quick Resume). Suporta jogos até 1440p/120 fps ou 4K upscaling, HDR, VRR/ALLM por HDMI 2.1 e design silencioso e compacto.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros10-p').submit(); return false;"><img src="../produtos/outros/outros10.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros10').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Filtro de Linha Clamper Energia</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$59,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Filtro de Linha Clamper Energia">
+                    <input type="hidden" name="preco" value=" R$59,99 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros10.png">
+                </form>
+                <form id="outros10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Filtro de Linha Clamper Energia">
+                    <input type="hidden" name="preco" value=" R$59,99 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros10.png">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Filtro protetor com capacidade de até 3 000 J de supressão, indicador LED de aterramento, 6 tomadas metálicas com proteção contra surtos, parede reforçada e cabo de 1,8 m com pés antiderrapantes. Ideal para proteger PCs, TVs e equipamentos sensíveis.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros11-p').submit(); return false;"><img src="../produtos/outros/outros11.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros11').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">WAP Aspirador de Pó Robô ROBOT W90</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$370,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="WAP Aspirador de Pó Robô ROBOT W90">
+                    <input type="hidden" name="preco" value=" R$370,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros11.png">
+                </form>
+                <form id="outros11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="WAP Aspirador de Pó Robô ROBOT W90">
+                    <input type="hidden" name="preco" value=" R$370,00 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros11.png">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Robô inteligente com mapeamento LiDAR, navegação SLAM, e bateria de 3 500 mAh para autonomia de até 120 min. 2 em 1 com função vácuo (600 Pa) e mop úmido, sensores anti‑queda/colisão, reservatório de 350 ml, app com agendamento, modo de limpeza zonal e suporte a Alexa/Google.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros12-p').submit(); return false;"><img src="../produtos/outros/outros12.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros12').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">PS5 Slim Digital Edition</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.599,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="outros12" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="PS5 Slim Digital Edition">
+                <input type="hidden" name="preco" value=" R$3599,99 ">
+                <input type="hidden" name="img" value="produtos/outros/outros12.png">
+            </form>
+            <form id="outros12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="PS5 Slim Digital Edition">
+                <input type="hidden" name="preco" value=" R$3599,99 ">
+                <input type="hidden" name="img" value="produtos/outros/outros12.png">
+                <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Versão compacta do PS5, com CPU AMD Zen 2 de 8 núcleos a 3,5 GHz, GPU RDNA 2 com 10,3 TFLOPS e 16 GB GDDR6. Armazenamento SSD de 825 GB com IO ultrarrápido, suporte a Ray Tracing, 4K/120 fps, temp-aware cooling e design redesenhado ~30 % menor.">
+                </form>
+
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros13-p').submit(); return false;"><img src="../produtos/outros/outros13.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros13').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Sensor de Temperatura Inteligente Mibo Smart MTU 1001</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$125,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Sensor de Temperatura Inteligente Mibo Smart MTU 1001">
+                    <input type="hidden" name="preco" value=" R$125,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros13.png">
+                </form>
+                <form id="outros13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Sensor de Temperatura Inteligente Mibo Smart MTU 1001">
+                    <input type="hidden" name="preco" value=" R$125,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros13.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Sensor Wi‑Fi/Bluetooth para monitoramento doméstico, com medição de –20 °C a 60 °C (±0,5 °C), alta precisão e envio de alertas via app. Pequeno (≈5 cm), botões de configuração táteis, bateria CR2032 com até 1 ano de autonomia e integração com IFTTT.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros14-p').submit(); return false;"><img src="../produtos/outros/outros14.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros14').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Lâmpada Inteligente Smart Color 10W Elgin RGB</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$49,24</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.3 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lâmpada Inteligente Smart Color 10W Elgin RGB">
+                    <input type="hidden" name="preco" value=" R$49,24 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros14.png">
+                </form>
+                <form id="outros14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lâmpada Inteligente Smart Color 10W Elgin RGB">
+                    <input type="hidden" name="preco" value=" R$49,24 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros14.png">
+                    <input type="hidden" name="ava" value="4.3">
+                    <input type="hidden" name="desc" value="LED RGB com 10 W (equiv. 75 W incandescente), 800 lm, mudança de cor RGB e dimmer por app. Suporta Wi‑Fi 2,4 GHz, Amazon Alexa e Google Assistente, agendamento, cenas personalizadas e tempo de vida de 15 000 h.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros15-p').submit(); return false;"><img src="../produtos/outros/outros15.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros15').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Echo Pop 5ª Geração</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$249,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="outros15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Echo Pop 5ª Geração">
+                    <input type="hidden" name="preco" value=" R$249,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros15.png">
+               </form>
+                <form id="outros15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Echo Pop 5ª Geração">
+                    <input type="hidden" name="preco" value=" R$249,90 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros15.png">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Mini smart speaker com Alexa integrado, alto‑falante de 1,4'' e processador de áudio mais recente. Bluetooth 5.3, som estéreo através de múltiplas unidades, luz indicadora visual e suporte a rádio FM virtual, som volumoso para seu tamanho.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('outros16-p').submit(); return false;"><img src="../produtos/outros/outros16.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('outros16').submit(); return false;"><span class="material-symbols-outlined">shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Outros</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Aparador de Pelos Super Groom 11</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$132,50</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="outros16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Aparador de Pelos Super Groom 11">
+                    <input type="hidden" name="preco" value=" R$132,50 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros16.png">
+                </form>
+                <form id="outros16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Aparador de Pelos Super Groom 11">
+                    <input type="hidden" name="preco" value=" R$132,50 ">
+                    <input type="hidden" name="img" value="produtos/outros/outros16.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Aparelho elétrico com motor de 7 000 rpm, lâminas de aço inoxidável autolubrificantes, ajuste manual 0,5–6 mm e pentes-guia. Bateria Li-ion recarregável com até 90 min de uso, carregamento rápido e base para corte seco/molhado, ideal para rosto e corpo.">
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <footer>
+            <div class="footerNovosProdutos">
+                <h1>Pronto para receber nossos novos produtos?</h1>
+                <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+            </div>
+            <div class="footerSobre">
+                <div class="sobref">
+                    <li><a href="" class="negritosobre">Sobre</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                </div>
+                <div class="suportef">
+                    <li><a href="" class="negritosuporte">Suporte</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Devolução</a></li>
+                    <li><a href="">FAQ</a></li>
+                </div>
+                <div class="mexerCurriculo">
+                    <div class="footerCurriculo">
+                        <p>Trabalhe conosco</p>
+                        <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerf">
+                <div class="footerredes">
+                    <div class="tamanhof">
+                        <div class="blocosfooter">
+                            <a href="#">Cookies</a>
+                            <a href="#" class="espacoblocos">Condições de uso</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">©2025 etech.com.br</a>
+                            <a href="#" class="espacoblocos">Privacidade</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">Nossas redes sociais</a>
+                            <div class="imgbloco">
+                                <a href="#"><img src="../icones/youtube-logo.png"></a>
+                                <a href="#"><img src="../icones/instagram-logo.png"></a>
+                                <a href="#"><img src="../icones/x-logo.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

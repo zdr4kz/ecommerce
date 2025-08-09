@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Hardwares</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('memoria1-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Memória_RAM_Team_Group_Vulcan_16GB_(2x8GB)_DDR5_5200MHz_CL40.jpg"
+                            alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('memoria1').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Memória RAM Team Group Vulcan 16GB (2x8GB) DDR5 5200MHz CL40</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$409,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="memoria1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"
+                        value="Memória RAM Team Group Vulcan 16GB (2x8GB) DDR5 5200MHz CL40">
+                    <input type="hidden" name="preco" value=" R$409,99 ">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Memória_RAM_Team_Group_Vulcan_16GB_(2x8GB)_DDR5_5200MHz_CL40.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                </form>
+                <form id="memoria1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"
+                        value="Memória RAM Team Group Vulcan 16GB (2x8GB) DDR5 5200MHz CL40">
+                    <input type="hidden" name="preco" value=" R$409,99 ">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Memória_RAM_Team_Group_Vulcan_16GB_(2x8GB)_DDR5_5200MHz_CL40.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc"
+                        value="Kit dual-channel com frequência DDR5 de 5200MHz e latência CAS 40, ideal para plataformas Intel 12ª/13ª geração e AMD AM5. Voltagem padrão de 1.25V, sem RGB, com dissipadores de alumínio preto para estabilidade térmica e visual discreto.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('memoria2-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Memória_DDR5_6400MHz_G.Skill_Trident_Z5_RGB.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('memoria2').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Memória DDR5 6400MHz G.Skill Trident Z5 RGB</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.619,49</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="memoria2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Memória DDR5 6400MHz G.Skill Trident Z5 RGB">
+                    <input type="hidden" name="preco" value=" R$1619,49 ">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Memória_DDR5_6400MHz_G.Skill_Trident_Z5_RGB.jpg">
+                </form>
+                <form id="memoria2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Memória DDR5 6400MHz G.Skill Trident Z5 RGB">
+                    <input type="hidden" name="preco" value=" R$1619,49 ">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Memória_DDR5_6400MHz_G.Skill_Trident_Z5_RGB.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc"
+                        value="Memória premium DDR5 com perfil XMP 3.0 e latência CAS 32 ou 36 (variações por SKU). Traz dissipadores robustos em alumínio e iluminação RGB sincronizável via G.Skill, ASUS Aura, MSI Mystic Light etc. Frequência extrema ideal para overclock e plataformas LGA1700.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('memoria3-p').submit(); return false;"><img src="../produtos/hardwares/Memória_RAM_Team_T-Force_XTREEM_ARGB_DDR4_16GB_(2x8GB)_3600MHz_CL18.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('memoria3').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Memória RAM Team T-Force XTREEM ARGB DDR4 16GB (2x8GB) 3600MHz CL18</p>
+                    <div class="preco">
+                        <p class="precoProdutos"> R$1.435,49</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="memoria3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"  value="Memória RAM Team T-Force XTREEM ARGB DDR4 16GB (2x8GB) 3600MHz CL18">
+                    <input type="hidden" name="preco" value=" R$ 1435,49 ">
+                    <input type="hidden" name="img"   value="produtos/hardwares/Memória_RAM_Team_T-Force_XTREEM_ARGB_DDR4_16GB_(2x8GB)_3600MHz_CL18.jpg">
+                </form>
+                <form id="memoria3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"  value="Memória RAM Team T-Force XTREEM ARGB DDR4 16GB (2x8GB) 3600MHz CL18">
+                    <input type="hidden" name="preco" value=" R$ 1435,49 ">
+                    <input type="hidden" name="img"   value="produtos/hardwares/Memória_RAM_Team_T-Force_XTREEM_ARGB_DDR4_16GB_(2x8GB)_3600MHz_CL18.jpg">
+                    <input type="hidden" name="ava"   value="4.6">
+                    <input type="hidden" name="desc"  value="Com latência CL18 e frequência 3600MHz, esse kit DDR4 tem iluminação ARGB integrada na barra superior translúcida, compatível com diversos softwares de sincronização RGB. Usa chips selecionados para estabilidade em overclock e voltagem de 1.35V.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('memoria4-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Memória_DDR4_G.Skill_Ripjaws_V_F4-3200C16.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('memoria4').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Memória DDR4 G.Skill Ripjaws V F4-3200C16</p>
+                    <div class="preco">
+                        <p class="precoProdutos"> R$379,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="memoria4" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome"  value="Memória DDR4 G.Skill Ripjaws V F4-3200C16">
+                <input type="hidden" name="preco" value=" R$ 379,99 ">
+                <input type="hidden" name="img"   value="produtos/hardwares/Memória_DDR4_G.Skill_Ripjaws_V_F4-3200C16.jpg">
+            </form>
+            <form id="memoria4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome"  value="Memória DDR4 G.Skill Ripjaws V F4-3200C16">
+                <input type="hidden" name="preco" value=" R$ 379,99 ">
+                <input type="hidden" name="img"   value="produtos/hardwares/Memória_DDR4_G.Skill_Ripjaws_V_F4-3200C16.jpg">
+                <input type="hidden" name="ava"   value="4.7">
+                <input type="hidden" name="desc"  value="Excelente custo-benefício para builds DDR4, com frequência 3200MHz, latência CAS 16-18-18-38, e voltagem de 1.35V. Compatível com Intel XMP 2.0, com dissipadores em alumínio para manter desempenho estável mesmo em cargas prolongadas.">
+            </form>
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('processador1-p').submit(); return false;"><img
+                            src="../produtos/hardwares/AMD_Ryzen_9_7950X3D_4.2GHz_AM5.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('processador1').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">AMD Ryzen 9 7950X3D 4.2GHz AM5</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.499,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="processador1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"  value="AMD Ryzen 9 7950X3D 4.2GHz AM5">
+                    <input type="hidden" name="preco" value=" R$4499,99 ">
+                    <input type="hidden" name="img"   value="produtos/hardwares/AMD_Ryzen_9_7950X3D_4.2GHz_AM5.jpg">
+                </form>
+                <form id="processador1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome"    value="AMD Ryzen 9 7950X3D 4.2GHz AM5">
+                    <input type="hidden" name="preco"   value=" R$4499,99 ">
+                    <input type="hidden" name="img"     value="produtos/hardwares/AMD_Ryzen_9_7950X3D_4.2GHz_AM5.jpg">
+                    <input type="hidden" name="ava"     value="4.8">
+                    <input type="hidden" name="desc"
+                        value="Topo de linha AM5 com 16 núcleos e 32 threads, clock base de 4.2GHz (boost até 5.7GHz) e cache 3D V-Cache totalizando 144MB. Suporte a PCIe 5.0, DDR5 e TDP de 120W. Ideal para games e tarefas de produtividade intensas com eficiência térmica.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('processador2-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Intel_Core_i9-13900K_2.2GHz_LGA1700.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('processador2').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Intel Core i9-13900K 2.2GHz LGA1700</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.236,49</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="processador2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Intel Core i9-13900K 2.2GHz LGA1700">
+                    <input type="hidden" name="preco" value=" R$3236,49 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/Intel_Core_i9-13900K_2.2GHz_LGA1700.jpg">
+                </form>
+                <form id="processador2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Intel Core i9-13900K 2.2GHz LGA1700">
+                    <input type="hidden" name="preco" value=" R$3236,49 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/Intel_Core_i9-13900K_2.2GHz_LGA1700.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc"
+                        value="CPU híbrida com 24 núcleos (8P + 16E) e 32 threads, alcançando até 5.8GHz. Cache L3 de 36MB, suporte a DDR4/DDR5, PCIe 5.0 e TDP base de 125W (253W turbo). Potência bruta para criadores, gamers e multitarefas intensas.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('processador3-p').submit(); return false;"><img
+                            src="../produtos/hardwares/AMD_Ryzen_7_7800X3D.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('processador3').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">AMD Ryzen 7 7800X3D</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.599,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="processador3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="AMD Ryzen 7 7800X3D">
+                    <input type="hidden" name="preco" value=" R$2599,99 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/AMD_Ryzen_7_7800X3D.jpg">
+                </form>
+                <form id="processador3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="AMD Ryzen 7 7800X3D">
+                    <input type="hidden" name="preco" value=" R$2599,99 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/AMD_Ryzen_7_7800X3D.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc"
+                        value="CPU gamer com 8 núcleos, 16 threads e 104MB de cache (96MB via 3D V-Cache), com clocks de até 5.0GHz. Oferece desempenho excepcional em jogos, com TDP de apenas 120W, compatível com DDR5 e PCIe 5.0 na plataforma AM5.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('processador4-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Intel_Core_i7-13700.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('processador4').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Intel Core i7-13700</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.791,39</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="processador4" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Intel Core i7-13700">
+                <input type="hidden" name="preco" value=" R$2791,39 ">
+                <input type="hidden" name="img" value="produtos/hardwares/Intel_Core_i7-13700.jpg">
+            </form>
+            <form id="processador4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Intel Core i7-13700">
+                <input type="hidden" name="preco" value=" R$2791,39 ">
+                <input type="hidden" name="img" value="produtos/hardwares/Intel_Core_i7-13700.jpg">
+                <input type="hidden" name="ava" value="4.9">
+                <input type="hidden" name="desc"
+                    value="Processador com 16 núcleos (8P + 8E), 24 threads e clock boost de até 5.2GHz. Cache L3 de 30MB, suporte a DDR4 e DDR5, PCIe 5.0 e TDP base de 65W (219W turbo). Excelente equilíbrio entre performance e eficiência térmica.">
+            </form>
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placamae1-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Gigabyte_X670E_Aorus_Master.jpg" alt="">
+                    </div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placamae1').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Gigabyte X670E Aorus Master</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.298,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placamae1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gigabyte X670E Aorus Master">
+                    <input type="hidden" name="preco" value=" R$4298,99 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/Gigabyte_X670E_Aorus_Master.jpg">
+                </form>
+                <form id="placamae1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gigabyte X670E Aorus Master">
+                    <input type="hidden" name="preco" value=" R$4298,99 ">
+                    <input type="hidden" name="img" value="produtos/hardwares/Gigabyte_X670E_Aorus_Master.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc"
+                        value="Placa de alto desempenho com 18+2+2 fases de energia, 4 slots DDR5 (até 8000MHz OC), 5 slots M.2 (PCIe 5.0), Wi-Fi 6E e LAN 10GbE. Áudio ALC1220-VB, suporte completo ao Ryzen série 7000 e construção premium com blindagem térmica.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placamae2-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Asus_ROG_Crosshair_X670E_Hero.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placamae2').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Asus ROG Crosshair X670E Hero</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.985,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.4 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placamae2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Asus ROG Crosshair X670E Hero">
+                    <input type="hidden" name="preco" value=" R$4985,0">
+                    <input type="hidden" name="img" value="produtos/hardwares/Asus_ROG_Crosshair_X670E_Hero.jpg">
+                </form>
+                <form id="placamae2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Asus ROG Crosshair X670E Hero">
+                    <input type="hidden" name="preco" value=" R$4985,0">
+                    <input type="hidden" name="img" value="produtos/hardwares/Asus_ROG_Crosshair_X670E_Hero.jpg">
+                    <input type="hidden" name="ava" value="4.4">
+                    <input type="hidden" name="desc"
+                        value="Destinada a overclock e entusiastas, com 18+2 fases, suporte DDR5 até 8000MHz, Wi-Fi 6E, Dual USB4 e 5 slots M.2 (incluindo Gen5). Áudio SupremeFX ALC4082 + ESS DAC, iluminação Aura Sync e BIOS intuitiva com suporte a EXPO.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placamae3-p').submit(); return false;"><img
+                            src="../produtos/hardwares/ASRock_X670E_Taichi_Carrara_AM5.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placamae3').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">ASRock X670E Taichi Carrara AM5</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$5.999,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placamae3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="ASRock X670E Taichi Carrara AM5">
+                    <input type="hidden" name="preco" value=" R$5999,99">
+                    <input type="hidden" name="img" value="produtos/hardwares/ASRock_X670E_Taichi_Carrara_AM5.jpg">
+                </form>
+                <form id="placamae3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="ASRock X670E Taichi Carrara AM5">
+                    <input type="hidden" name="preco" value=" R$5999,99">
+                    <input type="hidden" name="img" value="produtos/hardwares/ASRock_X670E_Taichi_Carrara_AM5.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc"
+                        value="Design inspirado em mármore, com VRM robusto de 24 fases SPS, DDR5 até 6600MHz+, Wi-Fi 6E, USB 4.0, 5x M.2 PCIe (2x Gen5), BIOS com modo “OC Tweaker” e suporte total a Ryzen 7000. Ideal para builds premium com estética marcante.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placamae4-p').submit(); return false;"><img
+                            src="../produtos/hardwares/MSI_MAG_X670E_Tomahawk_WiFi.jpg" alt="">
+                    </div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placamae4').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">MSI MAG X670E Tomahawk WiFi</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.858,49</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="placamae4" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="MSI MAG X670E Tomahawk WiFi">
+                <input type="hidden" name="preco" value=" R$1858,49">
+                <input type="hidden" name="img" value="produtos/hardwares/MSI_MAG_X670E_Tomahawk_WiFi.jpg">
+            </form>
+            <form id="placamae4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="MSI MAG X670E Tomahawk WiFi">
+                <input type="hidden" name="preco" value=" R$1858,49">
+                <input type="hidden" name="img" value="produtos/hardwares/MSI_MAG_X670E_Tomahawk_WiFi.jpg">
+                <input type="hidden" name="ava" value="4.7">
+                <input type="hidden" name="desc"
+                    value="Equipada com 14+2+1 fases, DDR5 até 6600MHz, 4x M.2 (Gen5/Gen4), Wi-Fi 6E e LAN 2.5GbE. PCB de 8 camadas, áudio ALC4080 e resfriamento estendido nos VRMs. Ótimo equilíbrio entre custo e performance na linha AM5.">
+            </form>
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placadevideo1-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Gigabyte_GeForce_RTX_4070_Super_Windforce_OC.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placadevideo1').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Gigabyte GeForce RTX 4070 Super Windforce OC</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.859,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placadevideo1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gigabyte GeForce RTX 4070 Super Windforce OC">
+                    <input type="hidden" name="preco" value=" R$4859,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Gigabyte_GeForce_RTX_4070_Super_Windforce_OC.jpg">
+                </form>
+
+                <form id="placadevideo1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gigabyte GeForce RTX 4070 Super Windforce OC">
+                    <input type="hidden" name="preco" value=" R$4859,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Gigabyte_GeForce_RTX_4070_Super_Windforce_OC.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc"
+                        value="Baseada em Ada Lovelace, com 7168 CUDA cores, boost clock até 2505MHz e memória GDDR6X de 21 Gbps. Suporte ao DLSS 3.5, Ray Tracing de 3ª geração e consumo de ~220W. Sistema Windforce de 3 ventoinhas e overclock de fábrica.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placadevideo2-p').submit(); return false;"><img
+                            src="../produtos/hardwares/PNY_GeForce_RTX_4060_8GB_XLR8_Gaming_Verto.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placadevideo2').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">PNY GeForce RTX 4060 8GB XLR8 Gaming Verto</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.149,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placadevideo2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PNY GeForce RTX 4060 8GB XLR8 Gaming Verto">
+                    <input type="hidden" name="preco" value=" R$2149,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/PNY_GeForce_RTX_4060_8GB_XLR8_Gaming_Verto.jpg">
+                </form>
+                <form id="placadevideo2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PNY GeForce RTX 4060 8GB XLR8 Gaming Verto">
+                    <input type="hidden" name="preco" value=" R$2149,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/PNY_GeForce_RTX_4060_8GB_XLR8_Gaming_Verto.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc"
+                        value="Com 3072 núcleos CUDA, 8GB GDDR6 a 17Gbps, boost de até 2460MHz, e TDP de apenas 115W. Ideal para jogos em 1080p com DLSS 3.0, arquitetura Ada Lovelace, ray tracing básico e ótimo custo-benefício em builds intermediárias.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placadevideo3-p').submit(); return false;"><img
+                            src="../produtos/hardwares/MSI_GeForce_RTX_5070_Ti_16GB_Ventus_3X_OC.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placadevideo3').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">MSI GeForce RTX 5070 Ti 16GB Ventus 3X OC</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$6.998,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.2 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placadevideo3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="MSI GeForce RTX 5070 Ti 16GB Ventus 3X OC">
+                    <input type="hidden" name="preco" value=" R$6998,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/MSI_GeForce_RTX_5070_Ti_16GB_Ventus_3X_OC.jpg">
+                </form>
+                <form id="placadevideo3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="MSI GeForce RTX 5070 Ti 16GB Ventus 3X OC">
+                    <input type="hidden" name="preco" value=" R$6998,99">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/MSI_GeForce_RTX_5070_Ti_16GB_Ventus_3X_OC.jpg">
+                    <input type="hidden" name="ava" value="4.2">
+                    <input type="hidden" name="desc"
+                        value="Espera-se que traga 16GB GDDR7, clock acima de 2.8GHz e até 9000+ núcleos CUDA. Provável suporte a DLSS 4.0 e Ray Reconstruction. A linha Ventus mantém bom resfriamento com design de 3 ventoinhas e overclock leve de fábrica.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#"
+                        onclick="document.getElementById('placadevideo4-p').submit(); return false;"><img
+                            src="../produtos/hardwares/Galax_GeForce_RTX_5080_16GB_1-Click_OC.jpg" alt=""></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('placadevideo4').submit(); return false;"><span
+                                class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Hardwares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Galax GeForce RTX 5080 16GB 1-Click OC</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$10.299,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="placadevideo4" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Galax GeForce RTX 5080 16GB 1-Click OC">
+                    <input type="hidden" name="preco" value=" R$10299,9">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Galax_GeForce_RTX_5080_16GB_1-Click_OC.jpg">
+                </form>
+                <form id="placadevideo4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Galax GeForce RTX 5080 16GB 1-Click OC">
+                    <input type="hidden" name="preco" value=" R$10299,9">
+                    <input type="hidden" name="img"
+                        value="produtos/hardwares/Galax_GeForce_RTX_5080_16GB_1-Click_OC.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc"
+                        value="Versão custom com overclock automático via software, arquitetura Ada-Next, 16GB GDDR7 e alto desempenho para 4K. Esperado com DLSS 4.0, Ray Tracing melhorado e TDP próximo a 300W. Resfriamento triplo e design gamer agressivo.">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerNovosProdutos">
+            <h1>Pronto para receber nossos novos produtos?</h1>
+            <form onsubmit="alert('Email Enviado!'); return false;">
+            <input type="email" name="emailfooter" placeholder="Seu Email" required>
+            <button type="submit">Enviar</button></form>
+        </div>
+        <div class="footerSobre">
+            <div class="sobref">
+                <li><a href="" class="negritosobre">Sobre</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Contate-nos</a></li>
+            </div>
+            <div class="suportef">
+                <li><a href="" class="negritosuporte">Suporte</a></li>
+                <li><a href="">Contate-nos</a></li>
+                <li><a href="">Entrega</a></li>
+                <li><a href="">Devolução</a></li>
+                <li><a href="">FAQ</a></li>
+            </div>
+            <div class="mexerCurriculo">
+                <div class="footerCurriculo">
+                    <p>Trabalhe conosco</p>
+                    <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="footerf">
+            <div class="footerredes">
+                <div class="tamanhof">
+                    <div class="blocosfooter">
+                        <a href="#">Cookies</a>
+                        <a href="#" class="espacoblocos">Condições de uso</a>
+                    </div>
+                    <div class="blocosfooter">
+                        <a href="#">©2025 etech.com.br</a>
+                        <a href="#" class="espacoblocos">Privacidade</a>
+                    </div>
+                    <div class="blocosfooter">
+                        <a href="#">Nossas redes sociais</a>
+                        <div class="imgbloco">
+                            <a href="#"><img src="../icones/youtube-logo.png"></a>
+                            <a href="#"><img src="../icones/instagram-logo.png"></a>
+                            <a href="#"><img src="../icones/x-logo.png"></a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

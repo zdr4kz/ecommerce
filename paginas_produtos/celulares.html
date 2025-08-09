@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Celulares</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular1-p').submit(); return false;" ><img src="../produtos/celulares/iphone15pro.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular1').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPhone 15 Pro (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$7.399,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 Pro (256 GB)">
+                    <input type="hidden" name="preco" value="R$7399,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone15pro.jpg" >
+                </form>
+
+                <form id="celular1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 Pro (256 GB)">
+                    <input type="hidden" name="preco" value=" R$ 7399,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone15pro.jpg" >
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Com estrutura de titânio e tela OLED Super Retina XDR de 6,1'' a 120Hz, 
+                    o iPhone 15 Pro combina leveza e resistência. Equipado com o chip A17 Pro de 3nm e 8GB de RAM, entrega desempenho
+                     de ponta. Suas câmeras traseiras incluem um sensor principal de 48MP com gravação ProRes. Porta USB-C 3.0 e iOS 17
+                      completam a experiência.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular2-p').submit(); return false;"><img src="../produtos/celulares/iphone16max.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular2').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPhone 16 Pro (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$9.499,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 16 Pro (256 GB)">
+                    <input type="hidden" name="preco" value=" R$9499,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone16max.jpg">
+                </form>
+
+                <form id="celular2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 16 Pro (256 GB)">
+                    <input type="hidden" name="preco" value=" R$9499,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone16max.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Com tela OLED de 6,9'' e taxa de 120Hz, o iPhone 16 Pro Max deve trazer o novo 
+                    chip A18 Pro com 8 a 12GB de RAM. A câmera periscópica com zoom óptico de até 6x e gravação 8K deve ser destaque. 
+                    Espera-se integração profunda de IA no iOS 18, além de Wi-Fi 7 e bateria aprimorada.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular3-p').submit(); return false;"><img src="../produtos/celulares/iphone15.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular3').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPhone 15 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.999,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$4999,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone15.jpg">
+                </form>
+
+                <form id="celular3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$4999,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone15.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="O iPhone 15 traz o chip A16 Bionic, tela OLED de 6,1''
+                     com brilho elevado e a nova Dynamic Island. Conta com câmera principal de 48MP e ultrawide de 12MP, 
+                     oferecendo fotos nítidas e gravação em 4K. A porta USB-C substitui o Lightning e o corpo em alumínio mantém leveza. ">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular4-p').submit(); return false;"><img src="../produtos/celulares/iphone14.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular4').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPhone 14 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.649,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular4" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 14 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$4649,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone14.jpg">
+                </form>
+
+                <form id="celular4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 14 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$4649,00">
+                    <input type="hidden" name="img" value="produtos/celulares/iphone14.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Com design semelhante ao modelo anterior, o iPhone 14 roda com chip A15 Bionic (GPU de 5 núcleos)
+                     e tela OLED de 6,1''. A câmera dupla de 12MP traz Modo Ação e gravação em 4K HDR. Inclui Detecção de Acidente, Face ID e conectividade 5G, 
+                     além de resistência IP68">
+                </form>
+
+            </div>
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular5-p').submit(); return false;"><img src="../produtos/celulares/galaxys25.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular5').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy S25 Ultra (512 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$7.874,47</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="celular5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy S25 Ultra (512 GB)">
+                    <input type="hidden" name="preco" value=" R$7874,47">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxys25.jpg">
+                    </form>
+                <form id="celular5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy S25 Ultra (512 GB)">
+                    <input type="hidden" name="preco" value=" R$7874,47">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxys25.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Com tela AMOLED de 6,8'' QHD+ a 120Hz, 
+                    o S25 Ultra vem com chip Snapdragon 8 Gen 4 ou Exynos 2500, até 16GB de RAM. A câmera principal
+                     de 200MP pode ganhar sensores adicionais com zoom óptico de 5x ou mais. Bateria de 5.000mAh, S Pen integrada e 
+                     One UI 7 com IA avançada.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular6-p').submit(); return false;"><img src="../produtos/celulares/galaxys24.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular6').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy S24 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.499,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="celular6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy S24 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3499,00">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxys24.jpg">
+                    </form>
+                <form id="celular6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy S24 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3499,00">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxys24.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="O S24 oferece uma tela AMOLED de 6,2'' 
+                    com taxa de 120Hz, chip Snapdragon 8 Gen 3 e 8GB de RAM. Sua câmera tripla traz sensor principal de 50MP,
+                     além de ultrawide e telefoto com zoom óptico de 3x. A bateria de 4.000mAh e o Gorilla Glass Victus 2 
+                     oferecem durabilidade. Galaxy AI amplia recursos com tradução simultânea e resumo de texto.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular7-p').submit(); return false;"><img src="../produtos/celulares/galaxya56.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular7').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy A56 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.177,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="celular7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy A56 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$2177,00">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxya56.jpg">
+                    </form>
+
+                <form id="celular7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy A56 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$2177,00">
+                    <input type="hidden" name="img" value="produtos/celulares/galaxya56.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="O Samsung galaxy A56 com tela AMOLED de 6,5'' Full HD+ a 120Hz, 
+                    chip intermediário Snapdragon ou Exynos e 8GB de RAM. A câmera principal de 64MP promete bons resultados,
+                     acompanhada de sensores ultrawide e macro. Bateria de 5.000mAh e Android 14 com One UI 6.1 completam o 
+                     conjunto.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular8-p').submit(); return false;"><img src="../produtos/celulares/galaxya36.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular8').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy A36 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.194,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+                <form id="celular8" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Samsung Galaxy A36 (256 GB)">
+                <input type="hidden" name="preco" value=" R$2194,00">
+                <input type="hidden" name="img" value="produtos/celulares/galaxya36.png">
+                </form>
+            <form id="celular8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Samsung Galaxy A36 (256 GB)">
+                <input type="hidden" name="preco" value=" R$2194,00">
+                <input type="hidden" name="img" value="produtos/celulares/galaxya36.png">
+                <input type="hidden" name="ava" value="4.8">
+                <input type="hidden" name="desc" value="O Samsung galaxy A36 com tela AMOLED de 6,6'', taxa de 90Hz e resolução Full HD+. 
+                O chip Exynos 1380 aliado a 6GB de RAM garante desempenho diário fluido. A câmera principal deve ser de 50MP, e a bateria de 
+                5.000mAh com carregamento de 25W. Android 14 com interface personalizada da Samsung.">
+                </form>
+
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular9-p').submit(); return false;"><img src="../produtos/celulares/xiaomi14t.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular9').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi 14T (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.649,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="celular9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi 14T (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3649,00">
+                    <input type="hidden" name="img" value="produtos/celulares/xiaomi14t.jpg">
+               </form>
+
+                <form id="celular9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi 14T (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3649,00">
+                    <input type="hidden" name="img" value="produtos/celulares/xiaomi14t.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="O Xiaomi 14T traz tela AMOLED de 6,7'' a 144Hz,
+                     chip Dimensity 9200+ ou Snapdragon 8 Gen 2 e até 12GB de RAM. O conjunto de câmeras Leica inclui 
+                     sensor principal de 50MP. A bateria de 5.000mAh vem com carregamento de até 120W. Rodará o HyperOS, 
+                     novo sistema da marca.">
+                </form>
+    
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular10-p').submit(); return false;"><img src="../produtos/celulares/redmi14pro.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular10').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Redmi Note 14 Pro 5G (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.899,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Note 14 Pro 5G (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1899,00">
+                    <input type="hidden" name="img" value="produtos/celulares/redmi14pro.jpg">
+                </form>
+
+                <form id="celular10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Note 14 Pro 5G (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1899,00">
+                    <input type="hidden" name="img" value="produtos/celulares/redmi14pro.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Com tela AMOLED de 6,67'' a 120Hz e resolução FHD+, o Note 14 Pro conta com chip 
+                    Snapdragon 7 Gen 3 ou Dimensity 7200 e 8GB de RAM. A câmera principal deve ser de 200MP, ideal para quem busca fotos detalhadas. 
+                    A bateria de 5.100mAh terá carregamento de 67W.">
+                </form>
+    
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular11-p').submit(); return false;"><img src="../produtos/celulares/xiaomi15.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular11').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi 15 5G (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.345,40</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi 15 5G (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3345,40">
+                    <input type="hidden" name="img" value="produtos/celulares/xiaomi15.jpg">
+                </form>
+
+                <form id="celular11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi 15 5G (256 GB)">
+                    <input type="hidden" name="preco" value=" R$3345,40">
+                    <input type="hidden" name="img" value="produtos/celulares/xiaomi15.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="O Xiaomi 15 traz o novo Snapdragon 8 Gen 4, tela AMOLED 1.5K de 6,36'' e taxa de 120Hz. 
+                    A câmera principal de 50MP, desenvolvida em parceria com a Leica, virá acompanhada de telefoto e ultrawide. A bateria de 4.800mAh
+                     será recarregada com 90W. Vem com HyperOS e IA embutida.">
+                </form>
+    
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular12-p').submit(); return false;"><img src="../produtos/celulares/pocox7.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular12').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi POCO X7 Pro (512 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.549,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="celular12" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Xiaomi POCO X7 Pro (512 GB)">
+                <input type="hidden" name="preco" value=" R$2549,00">
+                <input type="hidden" name="img" value="produtos/celulares/pocox7.jpg">
+            </form>
+
+            <form id="celular12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Xiaomi POCO X7 Pro (512 GB)">
+                <input type="hidden" name="preco" value=" R$2549,00">
+                <input type="hidden" name="img" value="produtos/celulares/pocox7.jpg">
+                <input type="hidden" name="ava" value="4.7">
+                <input type="hidden" name="desc" value="O xioami POCO X7 Pro conta tela AMOLED de 6,7'' com taxa de 120Hz 
+                e resolução Full HD+, além de chip Dimensity 8300 Ultra e até 12GB de RAM. A câmera principal de 64MP
+                 com OIS permite gravação estável em 4K. Bateria de 5.000mAh e carregamento rápido de 67W com MIUI for 
+                 POCO.">
+                </form>
+
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular13-p').submit(); return false;"><img src="../produtos/celulares/edge60Fusion.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular13').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Edge 60 Fusion (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.699,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Edge 60 Fusion (256 GB)">
+                    <input type="hidden" name="preco" value=" R$2699,10">
+                    <input type="hidden" name="img" value="produtos/celulares/edge60Fusion.jpg">
+                </form>
+
+                <form id="celular13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Edge 60 Fusion (256 GB)">
+                    <input type="hidden" name="preco" value=" R$2699,10">
+                    <input type="hidden" name="img" value="produtos/celulares/edge60Fusion.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Equipado com chip Snapdragon 7s Gen 2 e 12GB de RAM, o Edge 60 Fusion traz tela pOLED de 6,7'' com taxa de 144Hz.
+                     A câmera principal de 50MP com OIS garante fotos estáveis e detalhadas. A bateria de 5.000mAh suporta carregamento rápido de 68W. Vem com Android 14 puro.">
+                </form>
+    
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular14-p').submit(); return false;"><img src="../produtos/celulares/razr60.jpg" ></div>
+                    
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular14').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Razr 60 5G </p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.949,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Razr 60 5G">
+                    <input type="hidden" name="preco" value=" R$4949,10">
+                    <input type="hidden" name="img" value="produtos/celulares/razr60.jpg">
+                </form>
+                <form id="celular14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Razr 60 5G">
+                    <input type="hidden" name="preco" value=" R$4949,10">
+                    <input type="hidden" name="img" value="produtos/celulares/razr60.jpg">
+                    <input type="hidden" name="ava" value="4.0">
+                    <input type="hidden" name="desc" value="Com design dobrável elegante, traz tela interna pOLED de 6,9'' 
+                    a 144Hz e tela externa de 1,5''. O chip Snapdragon 7 Gen 1 e 8GB de RAM oferecem fluidez para multitarefa. 
+                    A câmera principal de 64MP conta com estabilização, e a bateria de 4.200mAh suporta carga rápida.">
+                </form>
+    
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular15-p').submit(); return false;"><img src="../produtos/celulares/motog55.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular15').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Moto G55 (256 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.439,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="celular15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto G55 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1439,10">
+                    <input type="hidden" name="img" value="produtos/celulares/motog55.jpg">
+                </form>
+
+                <form id="celular15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto G55 (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1439,10">
+                    <input type="hidden" name="img" value="produtos/celulares/motog55.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Modelo acessível com tela AMOLED ou LCD de 6,6'' a 120Hz, 
+                    chip Snapdragon 4 Gen 2 e 6GB de RAM. Deve contar com câmera principal de 50MP, sensor de profundidade 
+                    e gravação em Full HD. A bateria de 5.000mAh terá carregamento de 20W. Vem com Android 14">
+                </form>
+    
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('celular16-p').submit(); return false;"><img src="../produtos/celulares/edge50ultra2.jpg" alt="" ></div>
+
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('celular16').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Celulares</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Edge 50 Ultra (512 GB)</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.599,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="celular16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Edge 50 Ultra (512 GB)">
+                    <input type="hidden" name="preco" value=" R$3599,10">
+                    <input type="hidden" name="img" value="produtos/celulares/edge50ultra2.jpg">
+                    </form>
+                <form id="celular16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Edge 50 Ultra (512 GB)">
+                    <input type="hidden" name="preco" value=" R$3599,10">
+                    <input type="hidden" name="img" value="produtos/celulares/edge50ultra2.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Flagship com tela pOLED de 6,7'' em resolução
+                     1.5K e taxa de 144Hz. Usa o novo Snapdragon 8s Gen 3 com até 16GB de RAM. Sistema de 
+                     câmeras avançado com sensor principal de 50MP, ultrawide e telefoto de 64MP com zoom óptico. 
+                     Bateria de 4.500mAh com carga de 125W.">
+                </form>
+    
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerNovosProdutos">
+            <h1>Pronto para receber nossos novos produtos?</h1>
+               <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+        </div>
+        <div class="footerSobre">
+            <div class="sobref">
+                <li><a href="" class="negritosobre">Sobre</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Contate-nos</a></li>
+            </div>
+            <div class="suportef">
+                <li><a href="" class="negritosuporte">Suporte</a></li>
+                <li><a href="">Contate-nos</a></li>
+                <li><a href="">Entrega</a></li>
+                <li><a href="">Devolução</a></li>
+                <li><a href="">FAQ</a></li>
+            </div>
+            <div class="mexerCurriculo">
+                <div class="footerCurriculo">
+                    <p>Trabalhe conosco</p>
+                    <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="footerf">
+            <div class="footerredes">
+                <div class="tamanhof">
+                    <div class="blocosfooter">
+                        <a href="#">Cookies</a>
+                        <a href="#" class="espacoblocos">Condições de uso</a>
+                    </div>
+                    <div class="blocosfooter">
+                        <a href="#">©2025 etech.com.br</a>
+                        <a href="#" class="espacoblocos">Privacidade</a>
+                    </div>
+                    <div class="blocosfooter">
+                        <a href="#">Nossas redes sociais</a>
+                        <div class="imgbloco">
+                            <a href="#"><img src="../icones/youtube-logo.png"></a>
+                            <a href="#"><img src="../icones/instagram-logo.png"></a>
+                            <a href="#"><img src="../icones/x-logo.png"></a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

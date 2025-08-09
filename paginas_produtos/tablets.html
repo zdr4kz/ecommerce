@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/tablet.html">tablet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Tablets</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet1-p').submit(); return false;"><img src="../produtos/tablets/Apple_iPad_Pro_12.9.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet1').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPad Pro 12.9</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$14.999,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad Pro 12.9">
+                    <input type="hidden" name="preco" value=" R$14999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_Pro_12.9.jpg">
+                </form>
+                <form id="tablet1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad Pro 12.9">
+                    <input type="hidden" name="preco" value=" R$14999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_Pro_12.9.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Tela Liquid Retina XDR de 12,9'' com brilho de até 1600 nits e ProMotion 120 Hz. Vem equipado com chip M2 (8‑core CPU, 10‑core GPU, 16‑core Neural Engine), 8‑16 GB RAM e armazenamento até 2 TB, com USB‑C/Thunderbolt
+                    Suporte a Apple Pencil e Magic Keyboard, sistema Touch ID e design ultrafino (~1,5 lb).">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet2-p').submit(); return false;"><img src="../produtos/tablets/Samsung_Galaxy_Tab_S9_Ultra.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet2').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Tab S9 Ultra</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$11.499,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab S9 Ultra">
+                    <input type="hidden" name="preco" value=" R$11499,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_S9_Ultra.jpg">
+                </form>
+                <form id="tablet2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab S9 Ultra">
+                    <input type="hidden" name="preco" value=" R$11499,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_S9_Ultra.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Tela imensa de 14,6 '' Dynamic AMOLED 2X (120 Hz), resolução 2960×1848, corpo IP68 resistente à água e poeira
+                    .Processador Snapdragon 8 Gen 2 (Octa‑core + Adreno 740), até 16 GB RAM e até 1 TB com micro‑SD, S Pen incluída e bateria de ~10 090 mAh. Ideal para produtividade, multitarefa e conteúdo imersivo.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet3-p').submit(); return false;"><img src="../produtos/tablets/Microsoft_Surface_Pro_9.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet3').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Microsoft Surface Pro 9</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$13.699,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microsoft Surface Pro 9">
+                    <input type="hidden" name="preco" value=" R$13699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Microsoft_Surface_Pro_9.jpg">
+                </form>
+                <form id="tablet3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microsoft Surface Pro 9">
+                    <input type="hidden" name="preco" value=" R$13699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Microsoft_Surface_Pro_9.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Tablet 2‑em‑1 com tela PixelSense de 13'' (2880×1920, 120 Hz), peso de ~0,87 kg e corpo em alumínio. 
+                    CPU Intel i5/i7 de 12ª geração ou ARM SQ3 5G, até 32 GB LPDDR5, SSD de 1 TB e dupla porta USB‑C com Thunderbolt 4 . Inclui câmeras 5 MP frontal e 10 MP traseira, som Dolby Atmos e até 14 h de bateria com Windows 11.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet4-p').submit(); return false;"><img src="../produtos/tablets/Apple_iPad_Air_2024.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet4').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPad Air 2024</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$6.799,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet4" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad Air 2024">
+                    <input type="hidden" name="preco" value=" R$6799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_Air_2024.jpg">
+                </form>  
+                <form id="tablet4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad Air 2024">
+                    <input type="hidden" name="preco" value=" R$6799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_Air_2024.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Disponível nos tamanhos de 11'' e 13'', com tela Liquid Retina IPS (2048×2732, 600 nits).
+                     Vem com chip M2, 8 GB de RAM e opções de 128 GB a 1 TB, compatível com Apple Pencil Pro e Keyboard Magic. Câmera frontal landscape, Touch ID e design ultrafino (~6,1–6,6 mm).">
+                </form>
+            </div>
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet5-p').submit(); return false;"><img src="../produtos/tablets/Samsung_Galaxy_Tab_S9+.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet5').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Tab S9+</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$8.299,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab S9+">
+                    <input type="hidden" name="preco" value=" R$8299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_S9+.jpg">
+                </form>                
+                <form id="tablet5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab S9+">
+                    <input type="hidden" name="preco" value=" R$8299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_S9+.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Tela Dynamic AMOLED 2X de 12,4'' a 120 Hz, resolução 2800×1752, peso de 586 g, com Snapdragon 8 Gen 2, até 12 GB RAM e 512 GB ou micro‑SD expansível.IP68 resistente, S Pen incluída, câmeras dupla 13 MP + 8 MP, frontal 12 MP, bateria ~10 090 mAh. Ideal para uso criativo e notas.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet6-p').submit(); return false;"><img src="../produtos/tablets/Lenovo_Tab_P12_Pro.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet6').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Lenovo Tab P12 Pro</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$5.299,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo Tab P12 Pro">
+                    <input type="hidden" name="preco" value=" R$5299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Lenovo_Tab_P12_Pro.jpg">
+                </form>               
+                <form id="tablet6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo Tab P12 Pro">
+                    <input type="hidden" name="preco" value=" R$5299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Lenovo_Tab_P12_Pro.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Tela AMOLED 12,6'' 2K (2560×1600) com Dolby Vision e brilho de 400 nits. Equipado com Snapdragon 870, Adreno 650, 6–8 GB RAM e 128–256 GB UFS 3.1, com USB‑C, USB‑OTG e teclado compatível.Bateria de 10 200 mAh, dupla câmera 13 MP traseira + 8 MP frontal, ótimo para entretenimento e produtividade">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet7-p').submit(); return false;"><img src="../produtos/tablets/Amazon_Fire_HD_10_Plus_(2023).jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet7').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Amazon Fire HD 10 Plus</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.199,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Amazon Fire HD 10 Plus">
+                    <input type="hidden" name="preco" value=" R$1199,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Amazon_Fire_HD_10_Plus_(2023).jpg">
+                </form>               
+                <form id="tablet7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Amazon Fire HD 10 Plus">
+                    <input type="hidden" name="preco" value=" R$1199,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Amazon_Fire_HD_10_Plus_(2023).jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Tela IPS de 10,1'' 1080p, 4 GB de RAM e processador octa‑core, destinado a consumo multimídia leve. Inclui carregamento sem fio Qi, armazenamento expansível via micro-SD e autonomia de até 12 h, Ideal para uso casual, leitura e vídeo; carrega via USB‑C.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet8-p').submit(); return false;"><img src="../produtos/tablets/Huawei_MatePad_Pro_12.6.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet8').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Huawei MatePad Pro 12.6</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$7.799,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet8" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Huawei MatePad Pro 12.6">
+                    <input type="hidden" name="preco" value=" R$7799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Huawei_MatePad_Pro_12.6.jpg">
+                </form>                               
+                <form id="tablet8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Huawei MatePad Pro 12.6">
+                    <input type="hidden" name="preco" value=" R$7799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Huawei_MatePad_Pro_12.6.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="OLED de 12,6'' com relação de contraste de 1 000 000:1 e ampla cobertura DCI‑P3, corpo de ≈610 g. Traz chip Kirin 9000E (8 GB RAM, 128–256 GB), bateria de 10 050 mAh com carga rápida e sem fio.HarmonyOS, suporte a M‑Pen, ideal para ilustração e produtividade.">
+                </form>
+            </div>
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet9-p').submit(); return false;"><img src="../produtos/tablets/Samsung_Galaxy_Tab_A8.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet9').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Tab A8</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.999,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.3 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab A8">
+                    <input type="hidden" name="preco" value=" R$1999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_A8.jpg">
+                </form>                               
+                <form id="tablet9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab A8">
+                    <input type="hidden" name="preco" value=" R$1999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_A8.jpg">
+                    <input type="hidden" name="ava" value="4.3">
+                    <input type="hidden" name="desc" value="Tela TFT de 10,5'' (1920×1200), processador octa‑core (MediaTek), 3–4 GB RAM e 32–128 GB armazenamento expansível. Quatro alto‑falantes com suporte a Dolby Atmos, corpo metálico de ~500 g.Voltado a educação, leitura e consumo leve.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet10-p').submit(); return false;"><img src="../produtos/tablets/Microsoft_Surface_Go_3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet10').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Microsoft Surface Go 3</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.299,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microsoft Surface Go 3">
+                    <input type="hidden" name="preco" value=" R$4299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Microsoft_Surface_Go_3.jpg">
+                </form>                              
+                <form id="tablet10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microsoft Surface Go 3">
+                    <input type="hidden" name="preco" value=" R$4299,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Microsoft_Surface_Go_3.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Tela PixelSense de 10,5'' (1920×1280), 1,2 kg, CPU Intel Pentium Gold 6500Y ou Core i3‑10100Y, até 8 GB RAM e 128 GB SSD. Portátil, com Windows 11, suporte a Surface Pen, USB‑C e Wi‑Fi 6 . Ideal para tarefas leves e mobilidade.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet11-p').submit(); return false;"><img src="../produtos/tablets/Apple_iPad_10_(2024).jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet11').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple iPad 10</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$5.699,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad 10">
+                    <input type="hidden" name="preco" value=" R$5699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_10_(2024).jpg">
+                </form>                               
+                <form id="tablet11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPad 10">
+                    <input type="hidden" name="preco" value=" R$5699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Apple_iPad_10_(2024).jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Tela Liquid Retina de 10,9'' (2360×1640), chip A14 Bionic, 64–256 GB de armazenamento e 8 – 11 h de bateria. USB‑C, Touch ID, câmeras de 12 MP com gravação até 4K.Bom para educação, conteúdo e produtividade leve.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet12-p').submit(); return false;"><img src="../produtos/tablets/Xiaomi_Pad_5.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet12').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Pad 5</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.699,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet12" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Pad 5">
+                    <input type="hidden" name="preco" value=" R$2699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Xiaomi_Pad_5.jpg">
+                </form>                                               
+                <form id="tablet12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Pad 5">
+                    <input type="hidden" name="preco" value=" R$2699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Xiaomi_Pad_5.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Display LCD de 11'' WQHD+ (1600×2560) a 120 Hz, Snapdragon 860, 6–8 GB RAM, 128–256 GB armazenamento UFS 3.1. Áudio quádruplo, caneta Stylus e bateria de 8720 mAh com carga rápida .">
+                </form>
+            </div>
+
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet13-p').submit(); return false;"><img src="../produtos/tablets/Sony_Xperia_Tablet_Z4.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet13').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Sony Xperia Tablet Z4</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.999,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Sony Xperia Tablet Z4">
+                    <input type="hidden" name="preco" value=" R$4999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Sony_Xperia_Tablet_Z4.jpg">
+                </form>                                               
+                <form id="tablet13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Sony Xperia Tablet Z4">
+                    <input type="hidden" name="preco" value=" R$4999,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Sony_Xperia_Tablet_Z4.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Tela IPS de 10,1'' (2560×1600), processador Snapdragon 810, 3 GB RAM, 32 GB armazenamento (expansível), peso 389 g e corpo fino de 6,1 mm. Bateria de 6000 mAh, resistência splashproof IP65/IP68, ideal como dispositivo leve e portátil.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet14-p').submit(); return false;"><img src="../produtos/tablets/Samsung_Galaxy_Tab_Active3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet14').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Tab Active3</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.499,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab Active3">
+                    <input type="hidden" name="preco" value=" R$3499,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_Active3.jpg">
+                </form>          
+                <form id="tablet14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Tab Active3">
+                    <input type="hidden" name="preco" value=" R$3499,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Samsung_Galaxy_Tab_Active3.jpg">
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Robusto, com corpo resistente a quedas de até 1,5 m, selo IP68 e MIL-STD‑810H. Tela de 8'' (~1280×800), Exynos 9810, 4 GB RAM, LTE opcional, bateria removível de 5050 mAh e suporte a S Pen. Voltado a uso industrial/corporativo.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet15-p').submit(); return false;"><img src="../produtos/tablets/Asus_ZenPad_3S_10.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet15').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Asus ZenPad 3S 10</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.799,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.4 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Asus ZenPad 3S 10">
+                    <input type="hidden" name="preco" value=" R$2799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Asus_ZenPad_3S_10.jpg">
+                </form>                                               
+                <form id="tablet15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Asus ZenPad 3S 10">
+                    <input type="hidden" name="preco" value=" R$2799,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Asus_ZenPad_3S_10.jpg">
+                    <input type="hidden" name="ava" value="4.4">
+                    <input type="hidden" name="desc" value="Tela IPS de 9,7'' (2048×1536), corpo metálico de 6,8 mm, processador MediaTek MT8176, 4 GB RAM e 64 GB armazenamento. Suporte a Asus Pen, som DTS HD Premium e bateria de 5900 mAh. Fino e estiloso para multimídia e leitura.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('tablet16-p').submit(); return false;"><img src="../produtos/tablets/Google_Pixel_Tablet.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('tablet16').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Tablets</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Google Pixel Tablet</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.699,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="tablet16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Google Pixel Tablet">
+                    <input type="hidden" name="preco" value=" R$4699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Google_Pixel_Tablet.jpg">
+                </form>                                                               
+                <form id="tablet16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Google Pixel Tablet">
+                    <input type="hidden" name="preco" value=" R$4699,00 ">
+                    <input type="hidden" name="img" value="produtos/tablets/Google_Pixel_Tablet.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Tela LCD de 10,95'' 2K, processador Tensor G2, 8 GB RAM, 128–256 GB de armazenamento. Alto-falantes estéreo, dock de carregamento e suporte a stylus, com Android 13+ e atualizações diretas da Google.">
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <footer>
+            <div class="footerNovosProdutos">
+                <h1>Pronto para receber nossos novos produtos?</h1>
+                <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+            </div>
+            <div class="footerSobre">
+                <div class="sobref">
+                    <li><a href="" class="negritosobre">Sobre</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                </div>
+                <div class="suportef">
+                    <li><a href="" class="negritosuporte">Suporte</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Devolução</a></li>
+                    <li><a href="">FAQ</a></li>
+                </div>
+                <div class="mexerCurriculo">
+                    <div class="footerCurriculo">
+                        <p>Trabalhe conosco</p>
+                        <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerf">
+                <div class="footerredes">
+                    <div class="tamanhof">
+                        <div class="blocosfooter">
+                            <a href="#">Cookies</a>
+                            <a href="#" class="espacoblocos">Condições de uso</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">©2025 etech.com.br</a>
+                            <a href="#" class="espacoblocos">Privacidade</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">Nossas redes sociais</a>
+                            <div class="imgbloco">
+                                <a href="#"><img src="../icones/youtube-logo.png"></a>
+                                <a href="#"><img src="../icones/instagram-logo.png"></a>
+                                <a href="#"><img src="../icones/x-logo.png"></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

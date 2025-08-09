@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Periféricos</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos1-p').submit(); return false;"><img src="../produtos/perifericos/perifericos1.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos1').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Mouse Gamer Sem Fio Logitech G305</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$389,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer Sem Fio Logitech G305">
+                    <input type="hidden" name="preco" value=" R$389,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos1.png">
+                </form>
+                <form id="perifericos1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer Sem Fio Logitech G305">
+                    <input type="hidden" name="preco" value=" R$389,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos1.png">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="O G305 tem design ambidestro compacto (116 × 62 × 38 mm, 99 g) e utiliza o receptor LIGHTSPEED a 2.4 GHz com taxa de relatório de 1 ms. Usa sensor HERO com resolução de 200–12 000 DPI, aceleração de 40 g e velocidade de até 400 IPS. A bateria AA oferece até 250 h de uso contínuo; possui 6 botões, técnica de tensionamento mecânico e memória para 1 perfil ">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos2-p').submit(); return false;"><img src="../produtos/perifericos/perifericos2.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos2').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Headset Gamer HyperX Cloud Stinger 2</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$165,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.0 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="perifericos2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Gamer HyperX Cloud Stinger 2">
+                    <input type="hidden" name="preco" value=" R$165,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos2.png">
+               </form>
+                <form id="perifericos2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Gamer HyperX Cloud Stinger 2">
+                    <input type="hidden" name="preco" value=" R$165,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos2.png">
+                    <input type="hidden" name="ava" value="4.0">
+                    <input type="hidden" name="desc" value="Com estrutura plástica e protetores auriculares de espuma com couro sintético, o Cloud Stinger 2 pesa cerca de 272 g. Drivers de 50 mm entregam resposta ampla (10 Hz–28 kHz) e microfone condensador bidirecional com cancelamento passivo. Conexão via cabo USB 2.0, áudio virtual DTS Headphone:X, controles onboard e bateria integrada para até 20 h">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos3-p').submit(); return false;"><img src="../produtos/perifericos/perifericos3.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos3').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Teclado Gamer Redragon Lakshmi</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$214,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Teclado Gamer Redragon Lakshmi">
+                    <input type="hidden" name="preco" value=" R$214,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos3.png">
+                </form>
+                <form id="perifericos3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Teclado Gamer Redragon Lakshmi">
+                    <input type="hidden" name="preco" value=" R$214,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos3.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Modelo TKL (sem teclado numérico), com switches Outemu mecânicos (Red, Blue ou Brown), keycaps double shot e iluminação RGB ajustável. Estrutura reforçada em ABS com placa metálica superior, 87 teclas anti-ghosting e modo de jogo. Compatível com software Redragon para macros e efeitos.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos4-p').submit(); return false;"><img src="../produtos/perifericos/perifericos4.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos4').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Microfone Gamer HyperX QuadCast</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$699,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+                <form id="perifericos4" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Microfone Gamer HyperX QuadCast">
+                <input type="hidden" name="preco" value=" R$699,99 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos4.png">
+                </form>
+            <form id="perifericos4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Microfone Gamer HyperX QuadCast">
+                <input type="hidden" name="preco" value=" R$699,99 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos4.png">
+                <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Microfone condensador USB com 4 padrões polares (cardioide, estéreo, omnidirecional e bidirecional), ideal para streaming e podcast. Possui sensor touch para mute com LED indicador, filtro pop interno e montagem shock mount antirruído. Resposta de frequência de 20 Hz a 20 kHz e taxa de amostragem de 48 kHz/16 bit.">
+                </form>
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos5-p').submit(); return false;"><img src="../produtos/perifericos/perifericos5.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos5').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Gabinete Gamer Husky Dome 100</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$139,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.1 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gabinete Gamer Husky Dome 100">
+                    <input type="hidden" name="preco" value=" R$139,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos5.png">
+                </form>
+                <form id="perifericos5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Gabinete Gamer Husky Dome 100">
+                    <input type="hidden" name="preco" value=" R$139,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos5.png">
+                    <input type="hidden" name="ava" value="4.1">
+                    <input type="hidden" name="desc" value="Com painel frontal em mesh para melhor fluxo de ar, acompanha 3 fãs RGB frontais e 1 traseira. Suporta placas ATX/mATX/ITX, GPUs de até 330 mm e coolers de CPU de até 160 mm. Possui lateral em vidro temperado, bom gerenciamento de cabos e filtros de poeira.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos6-p').submit(); return false;"><img src="../produtos/perifericos/perifericos6.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos6').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Mouse Gamer Sem Fio Logitech G Pro X Superlight 2</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$670,20</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer Sem Fio Logitech G Pro X Superlight 2">
+                    <input type="hidden" name="preco" value=" R$670,20 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos6.png">
+                </form>
+                <form id="perifericos6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer Sem Fio Logitech G Pro X Superlight 2">
+                    <input type="hidden" name="preco" value=" R$670,20 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos6.png">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Pesando apenas 60 g, esse mouse RGB-free tem sensor HERO 2 com 100–44 000 DPI, aceleração de >88 g e velocidade de >888 IPS, sem suavização nem filtragem. Usa switches híbridos LIGHTFORCE, tecnologia LIGHTSPEED sem fio com polling em até 8 kHz e memória interna. Autonomia de 95 h, cabo USB‑C, pés PTFE e compatibilidade com software G Hub">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos7-p').submit(); return false;"><img src="../produtos/perifericos/perifericos7.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos7').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Mouse Pad Gamer Speed Criarte</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$54,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Pad Gamer Speed Criarte">
+                    <input type="hidden" name="preco" value=" R$54,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos7.png">
+                </form>
+                <form id="perifericos7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Pad Gamer Speed Criarte">
+                    <input type="hidden" name="preco" value=" R$54,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos7.png">
+                    <input type="hidden" name="ava" value="4.0">
+                    <input type="hidden" name="desc" value="Mouse pad de superfície speed em tecido microtexturizado para maior precisão e deslize suave. Base emborrachada antiderrapante, bordas costuradas para durabilidade e medidas ideais para setups gamers (tamanhos variados: M, G ou XL). Compatível com sensores ópticos e laser.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos8-p').submit(); return false;"><img src="../produtos/perifericos/perifericos8.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos8').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Teclado Mecânico Gamer Husky Sled</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$189,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+            <form id="perifericos8" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Teclado Mecânico Gamer Husky Sled">
+                <input type="hidden" name="preco" value=" R$189,00 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos8.png">
+            </form>
+            <form id="perifericos8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Teclado Mecânico Gamer Husky Sled">
+                <input type="hidden" name="preco" value=" R$189,00 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos8.png">
+                <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Teclado full-size com switches Outemu Red (lineares), estrutura sólida com base metálica e iluminação RGB personalizável por software. Conta com teclas anti-ghosting, modo game e cabo USB trançado. Excelente para digitação e jogos com precisão.">
+                </form>
+
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos9-p').submit(); return false;"><img src="../produtos/perifericos/perifericos9.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos9').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Microfone HyperX Solocast Podcast</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$359,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microfone HyperX Solocast Podcast">
+                    <input type="hidden" name="preco" value=" R$359,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos9.png">
+                </form>
+                <form id="perifericos9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microfone HyperX Solocast Podcast">
+                    <input type="hidden" name="preco" value=" R$359,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos9.png">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Compacto e plug and play via USB, é cardioide com resposta de frequência de 20 Hz–20 kHz e amostragem de 48 kHz/16 bit. Perfeito para streaming, gravações e chamadas, com botão de mute touch no topo e base ajustável. Compatível com PC, PS4, Mac e suporta braços articulados.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos10-p').submit(); return false;"><img src="../produtos/perifericos/perifericos10.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos10').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Headset Gamer Havit H2002D</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$199,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.2 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Gamer Havit H2002D">
+                    <input type="hidden" name="preco" value=" R$199,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos10.png">
+                </form>
+                <form id="perifericos10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Gamer Havit H2002D">
+                    <input type="hidden" name="preco" value=" R$199,99 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos10.png">
+                    <input type="hidden" name="ava" value="4.2">
+                    <input type="hidden" name="desc" value="Com drivers de 53 mm e som estéreo potente, o H2002D entrega áudio limpo com graves fortes. Compatível com PC, PS4 e Xbox via conector P2 3,5 mm, tem estrutura em metal com headband ajustável e earcups em couro sintético macio. O microfone omnidirecional é destacável e tem isolamento de ruído.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos11-p').submit(); return false;"><img src="../produtos/perifericos/perifericos11.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos11').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Webcam Logitech C270 HD</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$153,60</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Webcam Logitech C270 HD">
+                    <input type="hidden" name="preco" value=" R$153,60 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos11.png">
+                </form>
+                <form id="perifericos11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Webcam Logitech C270 HD">
+                    <input type="hidden" name="preco" value=" R$153,60 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos11.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Transmissão em HD 720p a 30 fps, lente com foco fixo e ângulo de visão de 60°, microfone mono com redução de ruído integrada. Ideal para chamadas no Zoom e Google Meet, conecta via USB-A, tem clip universal para notebooks e monitores, e funciona com Windows, MacOS e Linux.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos12-p').submit(); return false;"><img src="../produtos/perifericos/perifericos12.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos12').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Gabinete Gamer Hayom GB1793</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$249,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+           <form id="perifericos12" action="../adicionar.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Gabinete Gamer Hayom GB1793">
+                <input type="hidden" name="preco" value=" R$249,90 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos12.png">
+           </form>
+            <form id="perifericos12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                <input type="hidden" name="nome" value="Gabinete Gamer Hayom GB1793">
+                <input type="hidden" name="preco" value=" R$249,90 ">
+                <input type="hidden" name="img" value="produtos/perifericos/perifericos12.png">
+                <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Gabinete torre com estrutura ATX/mATX, lateral em acrílico, suporte para até 4 ventoinhas e espaço para placas de vídeo de até 310 mm. Acompanha fan frontal RGB, entrada USB 3.0 no painel e bom custo-benefício para builds intermediárias.">
+                </form>
+
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos13-p').submit(); return false;"><img src="../produtos/perifericos/perifericos13.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos13').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Mouse Gamer HyperX Pulsefire Haste 2</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$502,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer HyperX Pulsefire Haste 2">
+                    <input type="hidden" name="preco" value=" R$502,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos13.png">
+                </form>
+                <form id="perifericos13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Mouse Gamer HyperX Pulsefire Haste 2">
+                    <input type="hidden" name="preco" value=" R$502,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos13.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Ultra leve com apenas 53 g, o Pulsefire Haste 2 traz sensor HyperX 26K com 26 000 DPI, polling rate de 8 000 Hz e switches ópticos com durabilidade de 100 milhões de cliques. Cabo HyperFlex 2 ultraflexível e pés PTFE garantem controle ágil. Design em honeycomb fechado, ideal para eSports.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos14-p').submit(); return false;"><img src="../produtos/perifericos/perifericos14.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos14').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Teclado Mecânico Gamer Husky Blizzard</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$339,79</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Teclado Mecânico Gamer Husky Blizzard">
+                    <input type="hidden" name="preco" value=" R$339,79 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos14.png">
+                </form>
+                <form id="perifericos14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Teclado Mecânico Gamer Husky Blizzard">
+                    <input type="hidden" name="preco" value=" R$339,79 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos14.png">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Modelo 60% compacto com switches Outemu (geralmente Red), iluminação RGB completa, keycaps em ABS e construção minimalista. Ideal para setups pequenos ou portabilidade. Cabo USB-C removível, layout ABNT2 e funções secundárias por combinação de teclas.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos15-p').submit(); return false;"><img src="../produtos/perifericos/perifericos15.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos15').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Headset Sem Fio Logitech Zone Vibe 100</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$610,90</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Sem Fio Logitech Zone Vibe 100">
+                    <input type="hidden" name="preco" value=" R$610,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos15.png">
+                </form>
+                <form id="perifericos15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Headset Sem Fio Logitech Zone Vibe 100">
+                    <input type="hidden" name="preco" value=" R$610,90 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos15.png">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Headset Bluetooth leve (185 g), drivers de 40 mm, microfone com cancelamento de ruído e design confortável para longas sessões. Bateria com até 20 h de uso (18 h com chamadas), conexão via BT 5.2 e compatível com PC, Mac, Android, iOS. Ideal para trabalho e música.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('perifericos16-p').submit(); return false;"><img src="../produtos/perifericos/perifericos16.png" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('perifericos16').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Periféricos</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Microfone Condensador JBL Quantum Stream Studio</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$700,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="perifericos16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microfone Condensador JBL Quantum Stream Studio">
+                    <input type="hidden" name="preco" value=" R$700,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos16.png">
+                </form>
+                <form id="perifericos16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Microfone Condensador JBL Quantum Stream Studio">
+                    <input type="hidden" name="preco" value=" R$700,00 ">
+                    <input type="hidden" name="img" value="produtos/perifericos/perifericos16.png">
+                    <input type="hidden" name="ava" value="4.0">
+                    <input type="hidden" name="desc" value="Microfone condensador dual‑capsule com padrões cardioide e omnidirecional, resolução 24-bit/96 kHz. Corpo metálico premium com botão de mute, base antideslizante e conexão USB-C plug and play. Ideal para gravações, podcasts, streaming e reuniões com som cristalino.">
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <footer>
+            <div class="footerNovosProdutos">
+                <h1>Pronto para receber nossos novos produtos?</h1>
+                <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+            </div>
+            <div class="footerSobre">
+                <div class="sobref">
+                    <li><a href="" class="negritosobre">Sobre</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                </div>
+                <div class="suportef">
+                    <li><a href="" class="negritosuporte">Suporte</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Devolução</a></li>
+                    <li><a href="">FAQ</a></li>
+                </div>
+                <div class="mexerCurriculo">
+                    <div class="footerCurriculo">
+                        <p>Trabalhe conosco</p>
+                        <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerf">
+                <div class="footerredes">
+                    <div class="tamanhof">
+                        <div class="blocosfooter">
+                            <a href="#">Cookies</a>
+                            <a href="#" class="espacoblocos">Condições de uso</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">©2025 etech.com.br</a>
+                            <a href="#" class="espacoblocos">Privacidade</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">Nossas redes sociais</a>
+                            <div class="imgbloco">
+                                <a href="#"><img src="../icones/youtube-logo.png"></a>
+                                <a href="#"><img src="../icones/instagram-logo.png"></a>
+                                <a href="#"><img src="../icones/x-logo.png"></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

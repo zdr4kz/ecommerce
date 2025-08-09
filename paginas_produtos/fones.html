@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/fones.html">fones</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">
+        <h1 class="centralizarTitulo">Fones</h1>
+        <div class="conteinerTotal">
+            <!------------------ linha 1 ---------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone1-p').submit(); return false;"><img src="../produtos/fones/galaxybuds3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone1').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Buds3 Pro</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$799,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+
+                </div>
+                    <form id="fone1" action="../adicionar.php" method="post" style="display: none;">
+                        <input type="hidden" name="nome" value="Samsung Galaxy Buds3 Pro">
+                        <input type="hidden" name="preco" value=" R$799,00">
+                        <input type="hidden" name="img" value="produtos/fones/galaxybuds3.jpg" >
+                    </form>
+                    <form id="fone1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                        <input type="hidden" name="nome" value="Samsung Galaxy Buds3 Pro">
+                        <input type="hidden" name="preco" value=" R$799,00">
+                        <input type="hidden" name="img" value="produtos/fones/galaxybuds3.jpg" >
+                        <input type="hidden" name="ava" value="4.5">
+                        <input type="hidden" name="desc" value="O Galaxy Buds3 Pro conta com áudio Hi-Fi com drivers duplos dinâmicos,
+                        ANC inteligente com IA, Bluetooth 5.4 e suporte ao Samsung Seamless Codec HiFi. Contem áudio 360, microfones triplo com VPU, 
+                        certificação IP57 e até 7h de bateria (30h com estojo).">
+                    </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone2-p').submit(); return false;"><img src="../produtos/fones/galaxybudsFE.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone2').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Buds FE</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$329,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds FE">
+                    <input type="hidden" name="preco" value=" R$329,99">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybudsFE.jpg" >
+                    </form>
+                    <form id="fone2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds FE">
+                    <input type="hidden" name="preco" value=" R$329,99">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybudsFE.jpg" >
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Drivers de 12mm com graves potentes, ANC ativo e modo ambiente, 
+                    microfone duplo para redução de ruído em chamadas. Bluetooth 5.2, IPX2, bateria de até 6h com ANC e 21h
+                     com estojo. Integração nativa com Android e Galaxy Wearable.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone3-p').submit(); return false;"><img src="../produtos/fones/galaxybudslive.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone3').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Buds Live</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$599,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.4 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds Live">
+                    <input type="hidden" name="preco" value=" R$599,00">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybudslive.jpg" >
+                    </form>
+                    <form id="fone3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds Live">
+                    <input type="hidden" name="preco" value=" R$599,00">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybudslive.jpg" >
+                    <input type="hidden" name="ava" value="4.4">
+                    <input type="hidden" name="desc" value="Drivers de 12mm com som AKG, formato aberto e 
+                    cancelamento de ruído ativo leve. Traz 3 microfones por lado (2 externos + 1 interno),
+                     Bluetooth 5.0, Bixby Voice Wake-Up, até 6h de uso (21h com estojo), e carregamento wireless via Qi.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone4-p').submit(); return false;"><img src="../produtos/fones/galaxybuds2.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone4').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Samsung Galaxy Buds2</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$656,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+                    <form id="fone4" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds2">
+                    <input type="hidden" name="preco" value=" R$656,10">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybuds2.jpg" >
+                    </form>
+                    <form id="fone4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Samsung Galaxy Buds2">
+                    <input type="hidden" name="preco" value=" R$656,10">
+                    <input type="hidden" name="img" value="produtos/fones/galaxybuds2.jpg" >
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Com Chip H2, áudio Espacial com rastreamento dinâmico,
+                    ANC e Bluetooth 5.4. Bateria de até 6h, resistência IPX4 e estojo MagSafe com suporte ao Find My, áudio adaptativo com versão anti-ruído">
+                </form>
+            <!---------segunda linha---------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone5-p').submit(); return false;"><img src="../produtos/fones/airpods4.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone5').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple AirPods 4</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.349,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods 4">
+                    <input type="hidden" name="preco" value=" R$1349,10">
+                    <input type="hidden" name="img" value="produtos/fones/airpods4.jpg" >
+                    </form>
+                    <form id="fone5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods 4">
+                    <input type="hidden" name="preco" value=" R$1349,10">
+                    <input type="hidden" name="img" value="produtos/fones/airpods4.jpg" >
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Chip H2 com ANC até 2x mais eficaz que a 
+                    geração anterior, modo ambiente adaptativo, áudio espacial personalizado, 
+                    Bluetooth 5.3 e driver de baixa distorção. Estojo MagSafe com U1, alto-falante, 
+                    laço e 6h de uso (30h com estojo).">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone6-p').submit(); return false;"><img src="../produtos/fones/airpodspro.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone6').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple AirPods Pro</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.339,10</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods Pro">
+                    <input type="hidden" name="preco" value=" R$2339,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpodspro.jpg" >
+                    </form>
+                    <form id="fone6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods Pro">
+                    <input type="hidden" name="preco" value=" R$2339,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpodspro.jpg" >
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Chip H2 com ANC até 2x mais eficaz que a geração anterior, 
+                    modo ambiente adaptativo, áudio espacial personalizado, Bluetooth 5.3 e driver de baixa distorção.
+                     Estojo MagSafe com U1, alto-falante, laço e 6h de uso (30h com estojo).">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone7-p').submit(); return false;"><img src="../produtos/fones/airpodsMax.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone7').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple AirPods Max</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.299,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods Max">
+                    <input type="hidden" name="preco" value=" R$ 4299,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpodsMax.jpg" >
+                    </form>
+                    <form id="fone7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple AirPods Max">
+                    <input type="hidden" name="preco" value=" R$4299,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpodsMax.jpg" >
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Drivers dinâmicos de 40mm, chip H1 duplo, 
+                    ANC ativo com 8 microfones, modo transparência, áudio espacial com rastreamento dinâmico.
+                     Bluetooth 5.0, construção premium em alumínio e tecido, até 20h de autonomia com ANC ligado.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone8-p').submit(); return false;"><img src="../produtos/fones/airpods3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone8').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Apple AirPods 3</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$1.199,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+                    <form id="fone8" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 Pro (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1199,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpods3.jpg" >
+                    </form>
+                    <form id="fone8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Apple iPhone 15 Pro (256 GB)">
+                    <input type="hidden" name="preco" value=" R$1199,00">
+                    <input type="hidden" name="img" value="produtos/fones/airpods3.jpg" >
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="Trazem Áudio Espacial com rastreamento dinâmico da cabeça, 
+                    suporte ao codec AAC e chip Apple H1 para pareamento ultrarrápido. São resistentes a suor e água (IPX4),
+                     têm Bluetooth 5.0, sensores ópticos e de força, além de acelerômetro para detecção de movimento e voz.
+                      A bateria oferece 6h por carga (5h com Áudio Espacial) e até 30h com o estojo MagSafe.">
+                </form>
+            <!----terceira linha----------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone9-p').submit(); return false;"><img src="../produtos/fones/redmibudsA3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone9').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Redmi Buds3 A3 Pro</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$154,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds3 A3 Pro">
+                    <input type="hidden" name="preco" value=" R$154,99">
+                    <input type="hidden" name="img" value="produtos/fones/redmibudsA3.jpg" >
+                    </form>
+                    <form id="fone9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds3 A3 Pro">
+                    <input type="hidden" name="preco" value=" R$154,99">
+                    <input type="hidden" name="img" value="produtos/fones/redmibudsA3.jpg" >
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Traz drivers de 9mm, cancelamento de ruído ativo 
+                    de até 35dB e modo transparência. Bluetooth 5.2 com pareamento rápido e baixa latência. 
+                    Bateria de 6h por carga e até 28h com o estojo. Suporte a carregamento sem fio.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone10-p').submit(); return false;"><img src="../produtos/fones/redmiAirdots.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone10').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Redmi Airdots</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$32,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Airdots">
+                    <input type="hidden" name="preco" value="R$32,00">
+                    <input type="hidden" name="img" value="produtos/fones/redmiAirdots.jpg" >
+                    </form>
+                    <form id="fone10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Airdots">
+                    <input type="hidden" name="preco" value="R$32,00">
+                    <input type="hidden" name="img" value="produtos/fones/redmiAirdots.jpg" >
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Modelo de entrada com Bluetooth 5.0 e drivers de 7,2mm, 
+                    ideal para uso diário. Boa autonomia de até 4h por carga e até 12h com estojo. Simples, leve e 
+                    funcional, com comandos físicos e compatibilidade ampla.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone11-p').submit(); return false;"><img src="../produtos/fones/redmibuds6Active.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone11').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Redmi Buds 6 Active</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$149,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds 6 Active">
+                    <input type="hidden" name="preco" value=" R$149,99">
+                    <input type="hidden" name="img" value="produtos/fones/redmibuds6Active.jpg" >
+                    </form>
+                    <form id="fone11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds 6 Active">
+                    <input type="hidden" name="preco" value=" R$149,99">
+                    <input type="hidden" name="img" value="produtos/fones/redmibuds6Active.jpg" >
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Drivers dinâmicos de 12mm, Bluetooth 5.3, som estéreo 
+                    com reforço de graves, resistência IPX4. Até 5h de bateria por carga e 30h com estojo. Microfone
+                     com cancelamento de ruído para chamadas, controle por toque.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone12-p').submit(); return false;"><img src="../produtos/fones/redmibuds4.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone12').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Xiaomi Redmi Buds 4</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$199,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.6 Avaliaram</p>
+                    </div>
+                </div>
+            </div>
+                   <form id="fone12" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds 4">
+                    <input type="hidden" name="preco" value=" R$199,00">
+                    <input type="hidden" name="img" value="produtos/fones/redmibuds4.jpg" >
+                   </form>
+                    <form id="fone12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Xiaomi Redmi Buds 4">
+                    <input type="hidden" name="preco" value=" R$199,00">
+                    <input type="hidden" name="img" value="produtos/fones/redmibuds4.jpg" >
+                    <input type="hidden" name="ava" value="4.6">
+                    <input type="hidden" name="desc" value="ANC de até 35dB com modo transparência, drivers de 
+                    10mm com ajuste harmônico, Bluetooth 5.2, resistência IP54. Bateria de 6h com ANC e 30h 
+                    com estojo. Compatível com Android e iOS, pareamento rápido e aplicativo dedicado.">
+                </form>
+            <!-----Quarta linha-------------------------------------------------------------------------------------------->
+            <div class="conteinerlinha">
+                <!---------------------------------primeiro produto da linha ------------------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone13-p').submit(); return false;"><img src="../produtos/fones/motobuds600.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone13').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Moto Buds 600</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$449,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.0 Avaliaram</p>
+                    </div>
+                </div>
+                   <form id="fone13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto Buds 600">
+                    <input type="hidden" name="preco" value=" R$449,00">
+                    <input type="hidden" name="img" value="produtos/fones/motobuds600.jpg" >
+                   </form>
+                    <form id="fone13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto Buds 600">
+                    <input type="hidden" name="preco" value=" R$449,00">
+                    <input type="hidden" name="img" value="produtos/fones/motobuds600.jpg" >
+                    <input type="hidden" name="ava" value="4.0">
+                    <input type="hidden" name="desc" value="Drivers de 10mm, ANC híbrido com até 25dB, Bluetooth 5.2, 
+                    compatível com Snapdragon Sound e aptX Adaptive. IPX5, até 6h de bateria com ANC e 26h com estojo.
+                     Possui modo transparência, microfone duplo e estojo com USB-C.">
+                </form>
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone14-p').submit(); return false;"><img src="../produtos/fones/motoXT220.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone14').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola Moto XT 220</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$236,55</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto XT 220">
+                    <input type="hidden" name="preco" value=" R$236,55">
+                    <input type="hidden" name="img" value="produtos/fones/motoXT220.jpg" >
+                    </form>
+                    <form id="fone14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola Moto XT 220">
+                    <input type="hidden" name="preco" value=" R$236,55">
+                    <input type="hidden" name="img" value="produtos/fones/motoXT220.jpg" >
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Drivers dinâmicos de 10mm, Bluetooth 5.0, até 5h por 
+                    carga e cerca de 20h com o estojo. Provável resistência IPX4, microfone integrado com cancelamento 
+                    de ruído para chamadas, estojo recarregável via USB-C.">
+                </form>
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone15-p').submit(); return false;"><img src="../produtos/fones/vervebuds100.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone15').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola VerveBuds 100</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$199,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.3 Avaliaram</p>
+                    </div>
+                </div>
+                   <form id="fone15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola VerveBuds 100">
+                    <input type="hidden" name="preco" value=" R$199,00">
+                    <input type="hidden" name="img" value="produtos/fones/vervebuds100.jpg" >
+                   </form>
+                    <form id="fone15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola VerveBuds 100">
+                    <input type="hidden" name="preco" value=" R$199,00">
+                    <input type="hidden" name="img" value="produtos/fones/vervebuds100.jpg" >
+                    <input type="hidden" name="ava" value="4.3">
+                    <input type="hidden" name="desc" value="Fones TWS com drivers de 6mm, Bluetooth 5.0, até 5h
+                     de bateria por carga e 14h com o estojo. IPX5, compatível com Siri e Google Assistant.
+                      Design ergonômico com encaixe seguro, som equilibrado e microfone para chamadas.">
+                </form>
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('fone16-p').submit(); return false;"><img src="../produtos/fones/vervebuds300.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('fone16').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProduto">
+                            <p class="categoria">Fones</p>
+                        </div>
+                    </div>
+                    <p class="nomeProdutos">Motorola VerveBuds 300</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$249,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="fone16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola VerveBuds 300">
+                    <input type="hidden" name="preco" value=" R$249,00">
+                    <input type="hidden" name="img" value="produtos/fones/vervebuds300.jpg" >
+                    </form>
+                    <form id="fone16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Motorola VerveBuds 300">
+                    <input type="hidden" name="preco" value=" R$249,00">
+                    <input type="hidden" name="img" value="produtos/fones/vervebuds300.jpg" >
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Os VerveBuds 300 são compactos e leves (4,5g cada),
+                     com drivers de 6mm que entregam som estéreo balanceado e vocais claros. Possuem Bluetooth
+                      5.0, alcance de até 10m, certificação IPX6,A bateria dura cerca de 4 a 5 horas por carga, 
+                      com até 10h totais via estojo de carregamento USB-C. São compatíveis com assistentes de
+                       voz (Google Assistant/Siri) e têm controles por toque.">
+                </form>
+            </div>
+        </div>
+    </div>
+
+     <footer>
+            <div class="footerNovosProdutos">
+                <h1>Pronto para receber nossos novos produtos?</h1>
+                <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+            </div>
+            <div class="footerSobre">
+                <div class="sobref">
+                    <li><a href="" class="negritosobre">Sobre</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                </div>
+                <div class="suportef">
+                    <li><a href="" class="negritosuporte">Suporte</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Devolução</a></li>
+                    <li><a href="">FAQ</a></li>
+                </div>
+                <div class="mexerCurriculo">
+                    <div class="footerCurriculo">
+                        <p>Trabalhe conosco</p>
+                        <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerf">
+                <div class="footerredes">
+                    <div class="tamanhof">
+                        <div class="blocosfooter">
+                            <a href="#">Cookies</a>
+                            <a href="#" class="espacoblocos">Condições de uso</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">©2025 etech.com.br</a>
+                            <a href="#" class="espacoblocos">Privacidade</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">Nossas redes sociais</a>
+                            <div class="imgbloco">
+                                <a href="#"><img src="../icones/youtube-logo.png"></a>
+                                <a href="#"><img src="../icones/instagram-logo.png"></a>
+                                <a href="#"><img src="../icones/x-logo.png"></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+
+</html>

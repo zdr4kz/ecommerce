@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="../css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="icon" type="image/png" href="../icones/favicon.png" />
+    <title>e-Tech</title>
+</head>
+
+<body class="body-h">
+    <header id="header" class="header1">
+        <nav class="box1" id="box1">
+            <img src="../logo.png">
+            <div class="icones">
+                <a href="#">
+                    <span class="material-symbols-outlined size-20">
+                        search
+                    </span>
+                </a>
+                <a href="../ver-carrinho.php">
+                    <span class="material-symbols-outlined size-20">
+                        shopping_cart
+                    </span>
+                </a>
+                <a href="../login.html">
+                    <span class="material-symbols-outlined size-20">
+                        person
+                    </span>
+                </a>
+            </div>
+
+        </nav>
+        <nav class="box" id="box" class="header1">
+            <ul>
+                 <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas_produtos/computadores.html">Computadores</a></li>
+                <li><a href="../paginas_produtos/hardwares.html">Hardwares</a></li>
+                <li><a href="../paginas_produtos/celulares.html">Celulares</a></li>
+                <li><a href="../paginas_produtos/tablets.html">Tablets</a></li>
+                <li><a href="../paginas_produtos/fones.html">Fones</a></li>
+                <li><a href="../paginas_produtos/notebooks.html">Notebooks</a></li>
+                <li><a href="../paginas_produtos/perifericos.html">Periféricos</a></li>
+                <li><a href="../paginas_produtos/outros.html">Outros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tudo" class="tudo">  
+    <h1 class="centralizarTitulo">Computadores</h1>
+
+
+    <div class="conteinerTotal">
+<!------------------ linha 1 ---------------------------------------------------------------------------->
+        <div class="conteinerlinha">
+    <!---------------------------------primeiro produto da linha ------------------------------------------------->
+            <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador1-p').submit(); return false;"><img src="../produtos/pcs/optilexi5.jpg" alt="" ></div>
+                    
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador1').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Dell OptiPlex Small Desktop Core i5-14500</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.797,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador1" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Small Desktop Core i5-14500">
+                    <input type="hidden" name="preco" value=" R$4797,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi5.jpg">
+               </form>
+                <form id="computador1-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Small Desktop Core i5-14500">
+                    <input type="hidden" name="preco" value=" R$4797,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi5.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Projetado para empresas, vem com processador Intel Core i5-14500 
+                    (14 núcleos) da 14ª geração e gráficos UHD 770. Oferece suporte para até 64GB DDR5 e SSD PCIe NVMe. 
+                    Compacto e eficiente, possui diversas portas USB, incluindo tipo-C, e conectividade empresarial.">
+                </form>                
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador2-p').submit(); return false;"><img src="../produtos/pcs/optilexi3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador2').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Dell OptiPlex Micro Core i3-12100T</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.497,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador2" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Micro Core i3-12100T">
+                    <input type="hidden" name="preco" value=" R$3497,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi3.jpg">
+               </form>
+                <form id="computador2-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Micro Core i3-12100T">
+                    <input type="hidden" name="preco" value=" R$3497,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi3.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Ultracompacto, traz o eficiente Intel Core i3-12100T (4 núcleos) 
+                    com TDP reduzido, ideal para tarefas leves e ambientes corporativos. Suporta até 64GB de RAM DDR4 e 
+                    armazenamento SSD NVMe. Conectividade moderna com DisplayPort, USB-C e Ethernet gigabit.">
+                </form>            
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador3-p').submit(); return false;"><img src="../produtos/pcs/optilexi7.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador3').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Dell OptiPlex Small Desktop Core i7-14700</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$8.648,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador3" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Small Desktop Core i7-14700">
+                    <input type="hidden" name="preco" value=" R$8648,00">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi7.jpg">
+               </form>
+
+                <form id="computador3-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell OptiPlex Small Desktop Core i7-14700">
+                    <input type="hidden" name="preco" value=" R$8648,00">
+                    <input type="hidden" name="img" value="produtos/pcs/optilexi7.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Potente e confiável, vem com Core i7-14700 (20 núcleos) e 
+                    suporte a multitarefa intensa. Possui até 128GB DDR5 e armazenamento SSD PCIe Gen 4. Ideal para ambientes 
+                    exigentes, oferece segurança integrada e gerenciamento remoto via vPro.">
+                </form>            
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador4-p').submit(); return false;"><img src="../produtos/pcs/desktopInspiron.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador4').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Dell Inspiron Small Desktop Core i3-12100</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.200,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.2 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador4" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell Inspiron Small Desktop Core i3-12100">
+                    <input type="hidden" name="preco" value=" R$3200,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/desktopInspiron.jpg">
+               </form>
+
+                <form id="computador4-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Dell Inspiron Small Desktop Core i3-12100">
+                    <input type="hidden" name="preco" value=" R$3200,00 ">
+                    <input type="hidden" name="img" value="produtos/pcs/desktopInspiron.jpg">
+                    <input type="hidden" name="ava" value="4.2">
+                    <input type="hidden" name="desc" value="Compacto e acessível, traz o Intel Core i3-12100 
+                    (4 núcleos, 8 threads) com gráficos UHD 730. Suporta até 64GB de RAM DDR4 e SSD rápido para 
+                    tarefas do dia a dia. Excelente para home office, navegação e produtividade leve.">
+                </form>            
+        </div>
+<!---------segunda linha---------------------------------------------------------------------------------->
+        <div class="conteinerlinha">
+<!---------------------------------primeiro produto da linha ------------------------------------------------->
+            <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador5-p').submit(); return false;"><img src="../produtos/pcs/acer.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador5').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Acer Mini Desktop Core i5-12400T</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$4.751,12</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador5" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Acer Mini Desktop Core i5-12400T">
+                    <input type="hidden" name="preco" value=" R$4751,12 ">
+                    <input type="hidden" name="img" value="produtos/pcs/acer.jpg">
+               </form>
+
+
+                <form id="computador5-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Acer Mini Desktop Core i5-12400T">
+                    <input type="hidden" name="preco" value=" R$4751,12 ">
+                    <input type="hidden" name="img" value="produtos/pcs/acer.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Este mini desktop oferece performance eficiente com o Core i5-12400T 
+                    (6 núcleos), ideal para espaços reduzidos. Conta com até 32GB de RAM DDR4, SSD NVMe e múltiplas portas HDMI e USB. 
+                    Silencioso e econômico, combina bem com escritórios e uso doméstico.">
+                </form> 
+<!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador6-p').submit(); return false;"><img src="../produtos/pcs/thinkstationi7.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador6').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Lenovo ThinkStation Core i7-14700 </p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$11.263,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador6" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo ThinkStation Core i7-14700">
+                    <input type="hidden" name="preco" value=" R$11263,99 ">
+                    <input type="hidden" name="img" value="produtos/pcs/thinkstationi7.jpg">
+               </form>
+
+                <form id="computador6-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo ThinkStation Core i7-14700">
+                    <input type="hidden" name="preco" value=" R$11263,99 ">
+                    <input type="hidden" name="img" value="produtos/pcs/thinkstationi7.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Voltada para profissionais criativos, essa estação traz o Core i7-14700 (20 núcleos), 
+                    memória DDR5 e SSDs NVMe de alto desempenho. Compatível com GPUs dedicadas e certificada para softwares CAD. Estrutura robusta
+                     e pronta para upgrades.">
+                </form> 
+<!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador7-p').submit(); return false;"><img src="../produtos/pcs/thinkstationP3.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador7').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">Lenovo ThinkStation P3 Core i7-13700</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$9.239,99</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.5 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador7" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo ThinkStation P3 Core i7-13700">
+                    <input type="hidden" name="preco" value=" R$9239,99 ">
+                    <input type="hidden" name="img" value="produtos/pcs/thinkstationP3.jpg">
+               </form>
+
+                <form id="computador7-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="Lenovo ThinkStation P3 Core i7-13700">
+                    <input type="hidden" name="preco" value=" R$9239,99 ">
+                    <input type="hidden" name="img" value="produtos/pcs/thinkstationP3.jpg">
+                    <input type="hidden" name="ava" value="4.5">
+                    <input type="hidden" name="desc" value="Projetada para performance, conta com Core i7-13700 (16 núcleos) e 
+                    suporte para até 128GB de RAM DDR5. Ideal para modelagem 3D, engenharia e tarefas pesadas. Oferece expansão
+                     PCIe Gen 5 e refrigeração otimizada em gabinete robusto.">
+                </form> 
+<!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador8-p').submit(); return false;"><img src="../produtos/pcs/hpProSFF.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador8').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">HP Pro SFF 280 G9 Core i3 - 13ª geração</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$2.849,05</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador8" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="HP Pro SFF 280 G9 Core i3 - 13ª geração">
+                    <input type="hidden" name="preco" value=" R$2849,05">
+                    <input type="hidden" name="img" value="produtos/pcs/hpProSFF.jpg">
+                </form>
+
+                <form id="computador8-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="HP Pro SFF 280 G9 Core i3 - 13ª geração">
+                    <input type="hidden" name="preco" value=" R$2849,05">
+                    <input type="hidden" name="img" value="produtos/pcs/hpProSFF.jpg">
+                     <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Compacto e confiável, este modelo traz o Intel 
+                    Core i3-13100 com 4 núcleos e gráficos integrados. Ideal para escritórios e tarefas básicas, 
+                    com até 64GB DDR4 e SSD rápido. Design SFF facilita organização em ambientes profissionais.">
+                </form> 
+        </div>
+<!----terceira linha----------------------------------------------------------------------------------------->
+<div class="conteinerlinha">
+    <!---------------------------------primeiro produto da linha ------------------------------------------------->
+            <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador9-p').submit(); return false;"><img src="../produtos/pcs/hpProi5.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador9').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">HP Pro SFF 280 G9 Core i5 - 13ª geração</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.770,55</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.8 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador9" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="HP Pro SFF 280 G9 Core i5 - 13ª geração">
+                    <input type="hidden" name="preco" value=" R$3770,55">
+                    <input type="hidden" name="img" value="produtos/pcs/hpProi5.jpg">
+                </form>
+
+                <form id="computador9-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="HP Pro SFF 280 G9 Core i5 - 13ª geração">
+                    <input type="hidden" name="preco" value=" R$3770,55">
+                    <input type="hidden" name="img" value="produtos/pcs/hpProi5.jpg">
+                    <input type="hidden" name="ava" value="4.8">
+                    <input type="hidden" name="desc" value="Traz o Core i5-13400 com 10 núcleos e desempenho 
+                    sólido para produtividade. Suporta SSD NVMe, HDD e até 64GB de RAM DDR4. Oferece segurança 
+                    de nível corporativo, conectividade variada e formato pequeno com boa ventilação.">
+                </form> 
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador10-p').submit(); return false;"><img src="../produtos/pcs/pcGamer.webp" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador10').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer AMD Ryzen 5 5600G</p> 
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.049,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador10" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer AMD Ryzen 5 5600G">
+                    <input type="hidden" name="preco" value=" R$3049,00">
+                    <input type="hidden" name="img" value="produtos/pcs/pcGamer.webp">
+                </form>
+
+                <form id="computador10-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer AMD Ryzen 5 5600G">
+                    <input type="hidden" name="preco" value=" R$3049,00">
+                    <input type="hidden" name="img" value="produtos/pcs/pcGamer.webp">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Equipado com Ryzen 5 5600G (6 núcleos, gráficos Vega integrados), é ideal para jogos 
+                    leves e produtividade. Conta com até 16GB DDR4 e SSD NVMe, dispensando GPU dedicada em muitos jogos. Sistema acessível e eficiente 
+                    para iniciantes.">
+                </form> 
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador11-p').submit(); return false;"><img src="../produtos/pcs/amdRayzen.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador11').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer BluePC AMD Ryzen 5 8600G</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$3.129,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador11" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer BluePC AMD Ryzen 5 8600G">
+                    <input type="hidden" name="preco" value=" R$3129,00">
+                    <input type="hidden" name="img" value="produtos/pcs/amdRayzen.jpg">
+                </form>
+
+                <form id="computador11-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer BluePC AMD Ryzen 5 8600G">
+                    <input type="hidden" name="preco" value=" R$3129,00">
+                    <input type="hidden" name="img" value="produtos/pcs/amdRayzen.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Com o novíssimo Ryzen 5 8600G (Zen 4) e gráficos RDNA 3, entrega ótima performance sem 
+                    GPU dedicada. Oferece suporte a DDR5, SSD PCIe Gen 4 e resfriamento otimizado. Excelente opção para eSports e jogos em 1080p.">
+                </form> 
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador12-p').submit(); return false;"><img src="../produtos/pcs/pcPoseidon.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador12').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer Poseídon AMD Ryzen 7 5700X3D</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$5.859,01</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador12" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Poseídon AMD Ryzen 7 5700X3D">
+                    <input type="hidden" name="preco" value=" R$ 5859,01">
+                    <input type="hidden" name="img" value="produtos/pcs/pcPoseidon.jpg">
+                </form>
+
+                <form id="computador12-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Poseídon AMD Ryzen 7 5700X3D">
+                    <input type="hidden" name="preco" value=" R$5859,01">
+                    <input type="hidden" name="img" value="produtos/pcs/pcPoseidon.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Com o poderoso Ryzen 7 5700X3D de 8 núcleos e 16 threads,
+                     equipado com cache 3D para máximo desempenho em jogos, o Poseídon entrega FPS altíssimos em títulos 
+                     exigentes. Geralmente acompanhado de GPU RTX ou RX, SSD NVMe e até 32GB DDR4. Ideal para quem busca 
+                     imersão em 1440p ou até 4K, com ótimo custo-benefício competitivo.">
+                </form> 
+        </div>
+
+<!-----Quarta linha-------------------------------------------------------------------------------------------->
+<div class="conteinerlinha">
+    <!---------------------------------primeiro produto da linha ------------------------------------------------->
+            <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador13-p').submit(); return false;"><img src="../produtos/pcs/pcFobos.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador13').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer Fobos II Intel i7-12700KF</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$8.999,97</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.9 Avaliaram</p>
+                    </div>
+                </div>
+               <form id="computador13" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Fobos II Intel i7-12700KF">
+                    <input type="hidden" name="preco" value=" R$8999,97">
+                    <input type="hidden" name="img" value="produtos/pcs/pcFobos.jpg">
+               </form>
+
+                <form id="computador13-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Fobos II Intel i7-12700KF">
+                    <input type="hidden" name="preco" value=" R$8999,97">
+                    <input type="hidden" name="img" value="produtos/pcs/pcFobos.jpg">
+                    <input type="hidden" name="ava" value="4.9">
+                    <input type="hidden" name="desc" value="Potente, com Core i7-12700KF (12 núcleos), este desktop acompanha 
+                    GPU dedicada (varia por configuração). Ideal para jogos AAA, criação de conteúdo e multitarefa. 
+                    Suporte a DDR4/DDR5, SSD NVMe e gabinete com resfriamento avançado.">
+                </form>
+
+                <!----------------------------segundo produto da linha ---------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador14-p').submit(); return false;"><img src="../produtos/pcs/pcQuenubis.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador14').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer Quenúbis VI AMD Ryzen 5 5600XT</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$8.999,00</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador14" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Quenúbis VI AMD Ryzen 5 5600XT">
+                    <input type="hidden" name="preco" value=" R$8999,00">
+                    <input type="hidden" name="img" value="produtos/pcs/pcQuenubis.jpg">
+                </form>
+                <form id="computador14-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Quenúbis VI AMD Ryzen 5 5600XT">
+                    <input type="hidden" name="preco" value=" R$8999,00">
+                    <input type="hidden" name="img" value="produtos/pcs/pcQuenubis.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Focado em custo-benefício, combina Ryzen 5 5600X com GPU 
+                    dedicada Radeon RX 5600 XT. Perfeito para jogos em Full HD com bom desempenho. Inclui SSD NVMe, 
+                    até 16GB RAM e gabinete gamer com RGB e boa ventilação.">
+                </form>
+
+                <!------------------------------terceiro produto da linha-------------------------------------->
+
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador15-p').submit(); return false;"><img src="../produtos/pcs/pcAorus.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador15').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer Aorus League Lv3 Core i7-14700K</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$12.599,97</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">5.0 Avaliaram</p>
+                    </div>
+                </div>
+                <form id="computador15" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Aorus League Lv3 Core i7-14700K">
+                    <input type="hidden" name="preco" value=" R$12599,97">
+                    <input type="hidden" name="img" value="produtos/pcs/pcAorus.jpg">
+                </form>
+
+                <form id="computador15-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Aorus League Lv3 Core i7-14700K">
+                    <input type="hidden" name="preco" value=" R$12599,97">
+                    <input type="hidden" name="img" value="produtos/pcs/pcAorus.jpg">
+                    <input type="hidden" name="ava" value="5.0">
+                    <input type="hidden" name="desc" value="Oferece alto desempenho com o Core i7-14700K (20 núcleos), 
+                    DDR5 e GPU RTX de última geração (varia). Ideal para jogadores exigentes e criadores de conteúdo. 
+                    Gabinete Aorus com design premium, SSD ultrarrápido e refrigeração de alto nível.">
+                </form>
+
+                <!-----------------------------quarto produto da linha----------------------------------------->
+                <div class="fundoProdutos">
+                    <div class="prodCarrossel" href="#" onclick="document.getElementById('computador16-p').submit(); return false;"><img src="../produtos/pcs/pcHighflyer.jpg" alt="" ></div>
+                    <div class="superiorProdutos">
+                        <a href="#" onclick="document.getElementById('computador16').submit(); return false;"><span class="material-symbols-outlined"> shopping_cart</span></a>
+                        <div class="categoriaProdutoPC">
+                            <p class="categoria">Computadores</p>
+                        </div>
+                        </div>
+                    <p class="nomeProdutos">PC Gamer Highflyer AMD Ryzen 7 9800X3D</p>
+                    <div class="preco">
+                        <p class="precoProdutos">R$13.733,63</p>
+                    </div>
+                    <div class="avaliacao">
+                        <img src="../icones/star.png" alt="estrela" class="estrela">
+                        <p class="qtdAvaliacao">4.7 Avaliaram</p>
+                    </div>
+                </div>
+                    <form id="computador16" action="../adicionar.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Highflyer AMD Ryzen 7 9800X3D">
+                    <input type="hidden" name="preco" value=" R$13733,63">
+                    <input type="hidden" name="img" value="produtos/pcs/pcHighflyer.jpg">
+                    </form>
+
+                    <form id="computador16-p" action="../pagina-produto.php" method="post" style="display: none;">
+                    <input type="hidden" name="nome" value="PC Gamer Highflyer AMD Ryzen 7 9800X3D">
+                    <input type="hidden" name="preco" value=" R$13733,63">
+                    <input type="hidden" name="img" value="produtos/pcs/pcHighflyer.jpg">
+                    <input type="hidden" name="ava" value="4.7">
+                    <input type="hidden" name="desc" value="Voltado para máxima performance em jogos, traz o Ryzen 7 9800X3D 
+                    com cache 3D e eficiência térmica. Compatível com GPUs topo de linha e memórias DDR5 de alta frequência. 
+                    Perfeito para resoluções elevadas, streaming e multitarefa intensa.">
+                </form>
+
+        </div>
+    </div>
+    </div>
+
+     <footer>
+            <div class="footerNovosProdutos">
+                <h1>Pronto para receber nossos novos produtos?</h1>
+                 <form onsubmit="alert('Email Enviado!'); return false;">
+                <input type="email" name="emailfooter" placeholder="Seu Email" required>
+                <button type="submit">Enviar</button></form>
+            </div>
+            <div class="footerSobre">
+                <div class="sobref">
+                    <li><a href="" class="negritosobre">Sobre</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                </div>
+                <div class="suportef">
+                    <li><a href="" class="negritosuporte">Suporte</a></li>
+                    <li><a href="">Contate-nos</a></li>
+                    <li><a href="">Entrega</a></li>
+                    <li><a href="">Devolução</a></li>
+                    <li><a href="">FAQ</a></li>
+                </div>
+                <div class="mexerCurriculo">
+                    <div class="footerCurriculo">
+                        <p>Trabalhe conosco</p>
+                        <div class="botaocurriculo"><a href="">Envie seu curriculo aqui!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerf">
+                <div class="footerredes">
+                    <div class="tamanhof">
+                        <div class="blocosfooter">
+                            <a href="#">Cookies</a>
+                            <a href="#" class="espacoblocos">Condições de uso</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">©2025 etech.com.br</a>
+                            <a href="#" class="espacoblocos">Privacidade</a>
+                        </div>
+                        <div class="blocosfooter">
+                            <a href="#">Nossas redes sociais</a>
+                            <div class="imgbloco">
+                                <a href="#"><img src="../icones/youtube-logo.png"></a>
+                                <a href="#"><img src="../icones/instagram-logo.png"></a>
+                                <a href="#"><img src="../icones/x-logo.png"></a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+<script>  // script feito para borrar o fundo quando o mouse passar por cima do header
+
+    const box = document.getElementById("box")
+    const box1 = document.getElementById("box1")
+    const borrar = document.getElementById("tudo")
+
+
+    const boxs = [box, box1]
+    boxs.forEach((bx) => {
+
+        bx.addEventListener("mouseenter", () => {
+            borrar.classList.add("borrar");
+        });
+
+        bx.addEventListener("mouseleave", () => {
+            borrar.classList.remove("borrar")
+        })
+
+    })
+</script>
+</html>
